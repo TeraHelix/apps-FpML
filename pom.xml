@@ -65,16 +65,13 @@
   	</profiles>
   
     <modules>
-    	
-    	<module>FpML-spear-core-types</module>
-    	
-    	<!--  
+    
     	<module>FpML-build</module>
 		<module>FpML-model</module>
     	<module>FpML-spear-core-types</module>
     	<module>FpML-examples</module>
     	<module>FpML-relations</module>
-    	 -->
+
     </modules>
  
     <build>

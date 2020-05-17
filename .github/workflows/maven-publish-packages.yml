@@ -41,15 +41,6 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ github.token }} # GITHUB_TOKEN is the default env for the password
 
-#    - name: Deploy Maven Artifacts
-#      run: mvn -s $GITHUB_WORKSPACE/.github/workflows/settings.xml -X -B deploy maven.install.skip=true -DskipTests=true --file pom.xml 
-#      env:
-#        USERNAME_PACKAGE_READ_WRITE_DELETE: jjsteenkamp
-#        TOKEN_PACKAGE_READ_WRITE_DELETE: ${{ secrets.token_package_read_write_delete }}
-
-
-
-
 
 
 
