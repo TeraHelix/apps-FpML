@@ -61,8 +61,9 @@
             <username>${env.USERNAME_PACKAGE_READ_WRITE_DELETE}</username>
             <password>${env.TOKEN_PACKAGE_READ_WRITE_DELETE}</password>
         </server>
+        
         <server>
-            <id>github</id>
+            <id>project-target-github</id>
             <username>${env.USERNAME_PACKAGE_READ_WRITE_DELETE}</username>
             <password>${env.TOKEN_PACKAGE_READ_WRITE_DELETE}</password>
         </server>

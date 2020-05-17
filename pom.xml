@@ -549,7 +549,7 @@
 
 		<distributionManagement>
 			<repository>
-				<id>github</id>
+				<id>project-target-github</id>
 				<name>GitHub Platform Repository</name>
 				<url>https://maven.pkg.github.com/TeraHelix/apps-FpML</url>
 			</repository>
