@@ -28,12 +28,14 @@ relation Fra_Relation
   Org.FpML.PreTrade.Fra
 }
 
+/*
 @SourceTypeOfRelation(TypeName = "Org.FpML.PreTrade.FxDigitalOption") 
 @SoftClass
 relation FxDigitalOption_Relation
 {
   Org.FpML.PreTrade.FxDigitalOption
 }
+*/
 
 @SourceTypeOfRelation(TypeName = "Org.FpML.PreTrade.FxFlexibleForward") 
 @SoftClass
