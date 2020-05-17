@@ -12,13 +12,12 @@ import io.terahelix.xsd.spear.DocAndSourceLinksProvider;
 public class FpMLDocAndSourceLinksProvider implements DocAndSourceLinksProvider 
 {
 	
-	///m_spearSource.append(String.format("@FpMLDoc(\"%s\")\n", parent.constructExternalDocumentationAnnotation(enumType)));
-	public static final String BASE_DOCS_URL = "https://westpac.th-labs.online/source/xref/";
+	public static final String BASE_DOCS_URL = "https://github.com/TeraHelix/apps-FpML/tree/master/FpML-model/";
 
 	public Optional<String> constructSourceLinkURL(String xsdFile, int lineNumber)
 	{
 		String pathContext = xsdFile.substring(0, xsdFile.indexOf("/"));
-		String prefixPath = "westpac-model-" + pathContext + "-fpml/FpML/" + xsdFile;
+		String prefixPath = pathContext + "/fpml-gen/src/main/resources/FpML/" + xsdFile;
 		return Optional.of(BASE_DOCS_URL + prefixPath + "#" + lineNumber);
 	}
 	

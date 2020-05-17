@@ -1,0 +1,23 @@
+namespace Org.FpML.Legal.Relation;
+
+import XSD.FpML.*; 
+import Org.FpML.Confirmation.*; 
+import Org.FpML.PreTrade.*; 
+import Org.FpML.RecordKeeping.*; 
+import Org.FpML.Reporting.*; 
+import Org.FpML.Transparency.*; 
+import Org.FpML.Legal.*; 
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Legal.InstrumentTradeDetails") 
+@SoftClass
+relation InstrumentTradeDetails_Relation
+{
+  Org.FpML.Legal.InstrumentTradeDetails
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Legal.Strategy") 
+relation Strategy_Relation
+{
+  Org.FpML.Legal.Strategy
+}
+

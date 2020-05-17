@@ -64,6 +64,8 @@
     	<module>FpML-build</module>
 		<module>FpML-model</module>
     	<module>FpML-spear-core-types</module>
+    	<module>FpML-examples</module>
+    	<module>FpML-relations</module>
     </modules>
  
     <build>
@@ -502,6 +504,17 @@
              	<version>${project.version}</version>
         	</dependency>
         	
+        	<dependency>
+				<groupId>io.terahelix.apps.FpML</groupId>
+				<artifactId>FpML-examples</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>io.terahelix.apps.FpML</groupId>
+				<artifactId>FpML-relations</artifactId>
+				<version>${project.version}</version>
+			</dependency>  
         	
 			
 			<!-- End of internal Components -->

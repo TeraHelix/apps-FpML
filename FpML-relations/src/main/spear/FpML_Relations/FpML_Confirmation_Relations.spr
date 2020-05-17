@@ -1,0 +1,327 @@
+namespace Org.FpML.Confirmation.Relation;
+
+import XSD.FpML.*; 
+import Org.FpML.Confirmation.*; 
+import Org.FpML.PreTrade.*; 
+import Org.FpML.RecordKeeping.*; 
+import Org.FpML.Reporting.*; 
+import Org.FpML.Transparency.*; 
+import Org.FpML.Legal.*; 
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.BondOption") 
+@SoftClass
+relation BondOption_Relation
+{
+  Org.FpML.Confirmation.BondOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.BrokerEquityOption") 
+@SoftClass
+relation BrokerEquityOption_Relation
+{
+  Org.FpML.Confirmation.BrokerEquityOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.BulletPayment") 
+@SoftClass
+relation BulletPayment_Relation
+{
+  Org.FpML.Confirmation.BulletPayment
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.CapFloor") 
+@SoftClass
+relation CapFloor_Relation
+{
+  Org.FpML.Confirmation.CapFloor
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.CommodityBasketOption") 
+@SoftClass
+relation CommodityBasketOption_Relation
+{
+  Org.FpML.Confirmation.CommodityBasketOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.CommodityDigitalOption") 
+@SoftClass
+relation CommodityDigitalOption_Relation
+{
+  Org.FpML.Confirmation.CommodityDigitalOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.CommodityForward") 
+@SoftClass
+relation CommodityForward_Relation
+{
+  Org.FpML.Confirmation.CommodityForward
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.CommodityOption") 
+relation CommodityOption_Relation
+{
+  Org.FpML.Confirmation.CommodityOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.CommodityPerformanceSwap") 
+@SoftClass
+relation CommodityPerformanceSwap_Relation
+{
+  Org.FpML.Confirmation.CommodityPerformanceSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.CommoditySwap") 
+@SoftClass
+relation CommoditySwap_Relation
+{
+  Org.FpML.Confirmation.CommoditySwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.CommoditySwaption") 
+@SoftClass
+relation CommoditySwaption_Relation
+{
+  Org.FpML.Confirmation.CommoditySwaption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.CorrelationSwap") 
+@SoftClass
+relation CorrelationSwap_Relation
+{
+  Org.FpML.Confirmation.CorrelationSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.CreditDefaultSwap") 
+relation CreditDefaultSwap_Relation
+{
+  Org.FpML.Confirmation.CreditDefaultSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.CreditDefaultSwapOption") 
+@SoftClass
+relation CreditDefaultSwapOption_Relation
+{
+  Org.FpML.Confirmation.CreditDefaultSwapOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.DividendSwapOptionTransactionSupplement") 
+@SoftClass
+relation DividendSwapOptionTransactionSupplement_Relation
+{
+  Org.FpML.Confirmation.DividendSwapOptionTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.DividendSwapTransactionSupplement") 
+@SoftClass
+relation DividendSwapTransactionSupplement_Relation
+{
+  Org.FpML.Confirmation.DividendSwapTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.EquityForward") 
+@SoftClass
+relation EquityForward_Relation
+{
+  Org.FpML.Confirmation.EquityForward
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.EquityOption") 
+@SoftClass
+relation EquityOption_Relation
+{
+  Org.FpML.Confirmation.EquityOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.EquityOptionTransactionSupplement") 
+@SoftClass
+relation EquityOptionTransactionSupplement_Relation
+{
+  Org.FpML.Confirmation.EquityOptionTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.EquitySwapTransactionSupplement") 
+relation EquitySwapTransactionSupplement_Relation
+{
+  Org.FpML.Confirmation.EquitySwapTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.Fra") 
+relation Fra_Relation
+{
+  Org.FpML.Confirmation.Fra
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.FxAccrualDigitalOption") 
+relation FxAccrualDigitalOption_Relation
+{
+  Org.FpML.Confirmation.FxAccrualDigitalOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.FxAccrualForward") 
+relation FxAccrualForward_Relation
+{
+  Org.FpML.Confirmation.FxAccrualForward
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.FxAccrualOption") 
+@SoftClass
+relation FxAccrualOption_Relation
+{
+  Org.FpML.Confirmation.FxAccrualOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.FxDigitalOption") 
+@SoftClass
+relation FxDigitalOption_Relation
+{
+  Org.FpML.Confirmation.FxDigitalOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.FxFlexibleForward") 
+@SoftClass
+relation FxFlexibleForward_Relation
+{
+  Org.FpML.Confirmation.FxFlexibleForward
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.FxForwardVolatilityAgreement") 
+relation FxForwardVolatilityAgreement_Relation
+{
+  Org.FpML.Confirmation.FxForwardVolatilityAgreement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.FxOption") 
+@SoftClass
+relation FxOption_Relation
+{
+  Org.FpML.Confirmation.FxOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.FxPerformanceSwap") 
+@SoftClass
+relation FxPerformanceSwap_Relation
+{
+  Org.FpML.Confirmation.FxPerformanceSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.FxRangeAccrual") 
+relation FxRangeAccrual_Relation
+{
+  Org.FpML.Confirmation.FxRangeAccrual
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.FxSingleLeg") 
+@SoftClass
+relation FxSingleLeg_Relation
+{
+  Org.FpML.Confirmation.FxSingleLeg
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.FxSwap") 
+@SoftClass
+relation FxSwap_Relation
+{
+  Org.FpML.Confirmation.FxSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.FxTargetKnockoutForward") 
+relation FxTargetKnockoutForward_Relation
+{
+  Org.FpML.Confirmation.FxTargetKnockoutForward
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.GenericProduct") 
+@SoftClass
+relation GenericProduct_Relation
+{
+  Org.FpML.Confirmation.GenericProduct
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.InstrumentTradeDetails") 
+@SoftClass
+relation InstrumentTradeDetails_Relation
+{
+  Org.FpML.Confirmation.InstrumentTradeDetails
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.Repo") 
+relation Repo_Relation
+{
+  Org.FpML.Confirmation.Repo
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.ReturnSwap") 
+relation ReturnSwap_Relation
+{
+  Org.FpML.Confirmation.ReturnSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.SecurityLending") 
+relation SecurityLending_Relation
+{
+  Org.FpML.Confirmation.SecurityLending
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.StandardProduct") 
+relation StandardProduct_Relation
+{
+  Org.FpML.Confirmation.StandardProduct
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.Strategy") 
+relation Strategy_Relation
+{
+  Org.FpML.Confirmation.Strategy
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.Swap") 
+@SoftClass
+relation Swap_Relation
+{
+  Org.FpML.Confirmation.Swap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.Swaption") 
+@SoftClass
+relation Swaption_Relation
+{
+  Org.FpML.Confirmation.Swaption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.TermDeposit") 
+relation TermDeposit_Relation
+{
+  Org.FpML.Confirmation.TermDeposit
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.VarianceOptionTransactionSupplement") 
+@SoftClass
+relation VarianceOptionTransactionSupplement_Relation
+{
+  Org.FpML.Confirmation.VarianceOptionTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.VarianceSwap") 
+relation VarianceSwap_Relation
+{
+  Org.FpML.Confirmation.VarianceSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.VarianceSwapTransactionSupplement") 
+relation VarianceSwapTransactionSupplement_Relation
+{
+  Org.FpML.Confirmation.VarianceSwapTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.VolatilitySwap") 
+relation VolatilitySwap_Relation
+{
+  Org.FpML.Confirmation.VolatilitySwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.VolatilitySwapTransactionSupplement") 
+relation VolatilitySwapTransactionSupplement_Relation
+{
+  Org.FpML.Confirmation.VolatilitySwapTransactionSupplement
+}
+

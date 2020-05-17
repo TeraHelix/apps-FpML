@@ -15,8 +15,8 @@
 
     <dependencies>
 		<dependency>
-			<groupId>io.terahelix</groupId>
-			<artifactId>terahelix-spear-xsd-compilers</artifactId>
+			<groupId>io.terahelix.apps.FpML</groupId>
+			<artifactId>FpML-relations</artifactId>
 		</dependency> 
     </dependencies>
 

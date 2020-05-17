@@ -1,0 +1,329 @@
+namespace Org.FpML.Reporting.Relation;
+
+import XSD.FpML.*; 
+import Org.FpML.Confirmation.*; 
+import Org.FpML.PreTrade.*; 
+import Org.FpML.RecordKeeping.*; 
+import Org.FpML.Reporting.*; 
+import Org.FpML.Transparency.*; 
+import Org.FpML.Legal.*; 
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.BondOption") 
+@SoftClass
+relation BondOption_Relation
+{
+  Org.FpML.Reporting.BondOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.BrokerEquityOption") 
+@SoftClass
+relation BrokerEquityOption_Relation
+{
+  Org.FpML.Reporting.BrokerEquityOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.BulletPayment") 
+@SoftClass
+relation BulletPayment_Relation
+{
+  Org.FpML.Reporting.BulletPayment
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.CapFloor") 
+@SoftClass
+relation CapFloor_Relation
+{
+  Org.FpML.Reporting.CapFloor
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.CommodityBasketOption") 
+@SoftClass
+relation CommodityBasketOption_Relation
+{
+  Org.FpML.Reporting.CommodityBasketOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.CommodityDigitalOption") 
+@SoftClass
+relation CommodityDigitalOption_Relation
+{
+  Org.FpML.Reporting.CommodityDigitalOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.CommodityForward") 
+@SoftClass
+relation CommodityForward_Relation
+{
+  Org.FpML.Reporting.CommodityForward
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.CommodityOption") 
+relation CommodityOption_Relation
+{
+  Org.FpML.Reporting.CommodityOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.CommodityPerformanceSwap") 
+@SoftClass
+relation CommodityPerformanceSwap_Relation
+{
+  Org.FpML.Reporting.CommodityPerformanceSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.CommoditySwap") 
+@SoftClass
+relation CommoditySwap_Relation
+{
+  Org.FpML.Reporting.CommoditySwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.CommoditySwaption") 
+@SoftClass
+relation CommoditySwaption_Relation
+{
+  Org.FpML.Reporting.CommoditySwaption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.CorrelationSwap") 
+@SoftClass
+relation CorrelationSwap_Relation
+{
+  Org.FpML.Reporting.CorrelationSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.CreditDefaultSwap") 
+@SoftClass
+relation CreditDefaultSwap_Relation
+{
+  Org.FpML.Reporting.CreditDefaultSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.CreditDefaultSwapOption") 
+@SoftClass
+relation CreditDefaultSwapOption_Relation
+{
+  Org.FpML.Reporting.CreditDefaultSwapOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.DividendSwapOptionTransactionSupplement") 
+@SoftClass
+relation DividendSwapOptionTransactionSupplement_Relation
+{
+  Org.FpML.Reporting.DividendSwapOptionTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.DividendSwapTransactionSupplement") 
+@SoftClass
+relation DividendSwapTransactionSupplement_Relation
+{
+  Org.FpML.Reporting.DividendSwapTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.EquityForward") 
+@SoftClass
+relation EquityForward_Relation
+{
+  Org.FpML.Reporting.EquityForward
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.EquityOption") 
+@SoftClass
+relation EquityOption_Relation
+{
+  Org.FpML.Reporting.EquityOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.EquityOptionTransactionSupplement") 
+@SoftClass
+relation EquityOptionTransactionSupplement_Relation
+{
+  Org.FpML.Reporting.EquityOptionTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.EquitySwapTransactionSupplement") 
+relation EquitySwapTransactionSupplement_Relation
+{
+  Org.FpML.Reporting.EquitySwapTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.Fra") 
+relation Fra_Relation
+{
+  Org.FpML.Reporting.Fra
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.FxAccrualDigitalOption") 
+relation FxAccrualDigitalOption_Relation
+{
+  Org.FpML.Reporting.FxAccrualDigitalOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.FxAccrualForward") 
+relation FxAccrualForward_Relation
+{
+  Org.FpML.Reporting.FxAccrualForward
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.FxAccrualOption") 
+@SoftClass
+relation FxAccrualOption_Relation
+{
+  Org.FpML.Reporting.FxAccrualOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.FxDigitalOption") 
+@SoftClass
+relation FxDigitalOption_Relation
+{
+  Org.FpML.Reporting.FxDigitalOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.FxFlexibleForward") 
+@SoftClass
+relation FxFlexibleForward_Relation
+{
+  Org.FpML.Reporting.FxFlexibleForward
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.FxForwardVolatilityAgreement") 
+@SoftClass
+relation FxForwardVolatilityAgreement_Relation
+{
+  Org.FpML.Reporting.FxForwardVolatilityAgreement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.FxOption") 
+@SoftClass
+relation FxOption_Relation
+{
+  Org.FpML.Reporting.FxOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.FxPerformanceSwap") 
+@SoftClass
+relation FxPerformanceSwap_Relation
+{
+  Org.FpML.Reporting.FxPerformanceSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.FxRangeAccrual") 
+relation FxRangeAccrual_Relation
+{
+  Org.FpML.Reporting.FxRangeAccrual
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.FxSingleLeg") 
+@SoftClass
+relation FxSingleLeg_Relation
+{
+  Org.FpML.Reporting.FxSingleLeg
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.FxSwap") 
+@SoftClass
+relation FxSwap_Relation
+{
+  Org.FpML.Reporting.FxSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.FxTargetKnockoutForward") 
+relation FxTargetKnockoutForward_Relation
+{
+  Org.FpML.Reporting.FxTargetKnockoutForward
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.GenericProduct") 
+@SoftClass
+relation GenericProduct_Relation
+{
+  Org.FpML.Reporting.GenericProduct
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.InstrumentTradeDetails") 
+@SoftClass
+relation InstrumentTradeDetails_Relation
+{
+  Org.FpML.Reporting.InstrumentTradeDetails
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.Repo") 
+relation Repo_Relation
+{
+  Org.FpML.Reporting.Repo
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.ReturnSwap") 
+relation ReturnSwap_Relation
+{
+  Org.FpML.Reporting.ReturnSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.SecurityLending") 
+relation SecurityLending_Relation
+{
+  Org.FpML.Reporting.SecurityLending
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.StandardProduct") 
+relation StandardProduct_Relation
+{
+  Org.FpML.Reporting.StandardProduct
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.Strategy") 
+relation Strategy_Relation
+{
+  Org.FpML.Reporting.Strategy
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.Swap") 
+@SoftClass
+relation Swap_Relation
+{
+  Org.FpML.Reporting.Swap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.Swaption") 
+@SoftClass
+relation Swaption_Relation
+{
+  Org.FpML.Reporting.Swaption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.TermDeposit") 
+relation TermDeposit_Relation
+{
+  Org.FpML.Reporting.TermDeposit
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.VarianceOptionTransactionSupplement") 
+@SoftClass
+relation VarianceOptionTransactionSupplement_Relation
+{
+  Org.FpML.Reporting.VarianceOptionTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.VarianceSwap") 
+relation VarianceSwap_Relation
+{
+  Org.FpML.Reporting.VarianceSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.VarianceSwapTransactionSupplement") 
+relation VarianceSwapTransactionSupplement_Relation
+{
+  Org.FpML.Reporting.VarianceSwapTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.VolatilitySwap") 
+relation VolatilitySwap_Relation
+{
+  Org.FpML.Reporting.VolatilitySwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Reporting.VolatilitySwapTransactionSupplement") 
+relation VolatilitySwapTransactionSupplement_Relation
+{
+  Org.FpML.Reporting.VolatilitySwapTransactionSupplement
+}
+

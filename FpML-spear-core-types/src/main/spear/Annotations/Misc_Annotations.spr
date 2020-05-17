@@ -1,4 +1,4 @@
-namespace Au.Com.Westpac;
+namespace XSD.FpML;
 
 @Annotation
 struct ComplexityLevel

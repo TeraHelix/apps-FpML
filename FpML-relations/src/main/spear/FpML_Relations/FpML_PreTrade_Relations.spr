@@ -1,0 +1,98 @@
+namespace Org.FpML.PreTrade.Relation;
+
+import XSD.FpML.*; 
+import Org.FpML.Confirmation.*; 
+import Org.FpML.PreTrade.*; 
+import Org.FpML.RecordKeeping.*; 
+import Org.FpML.Reporting.*; 
+import Org.FpML.Transparency.*; 
+import Org.FpML.Legal.*; 
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.PreTrade.CapFloor") 
+@SoftClass
+relation CapFloor_Relation
+{
+  Org.FpML.PreTrade.CapFloor
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.PreTrade.CreditDefaultSwap") 
+@SoftClass
+relation CreditDefaultSwap_Relation
+{
+  Org.FpML.PreTrade.CreditDefaultSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.PreTrade.Fra") 
+relation Fra_Relation
+{
+  Org.FpML.PreTrade.Fra
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.PreTrade.FxDigitalOption") 
+@SoftClass
+relation FxDigitalOption_Relation
+{
+  Org.FpML.PreTrade.FxDigitalOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.PreTrade.FxFlexibleForward") 
+@SoftClass
+relation FxFlexibleForward_Relation
+{
+  Org.FpML.PreTrade.FxFlexibleForward
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.PreTrade.FxForwardVolatilityAgreement") 
+relation FxForwardVolatilityAgreement_Relation
+{
+  Org.FpML.PreTrade.FxForwardVolatilityAgreement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.PreTrade.FxOption") 
+@SoftClass
+relation FxOption_Relation
+{
+  Org.FpML.PreTrade.FxOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.PreTrade.FxPerformanceSwap") 
+@SoftClass
+relation FxPerformanceSwap_Relation
+{
+  Org.FpML.PreTrade.FxPerformanceSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.PreTrade.FxSingleLeg") 
+@SoftClass
+relation FxSingleLeg_Relation
+{
+  Org.FpML.PreTrade.FxSingleLeg
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.PreTrade.FxSwap") 
+@SoftClass
+relation FxSwap_Relation
+{
+  Org.FpML.PreTrade.FxSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.PreTrade.Strategy") 
+relation Strategy_Relation
+{
+  Org.FpML.PreTrade.Strategy
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.PreTrade.Swap") 
+@SoftClass
+relation Swap_Relation
+{
+  Org.FpML.PreTrade.Swap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.PreTrade.Swaption") 
+@SoftClass
+relation Swaption_Relation
+{
+  Org.FpML.PreTrade.Swaption
+}
+

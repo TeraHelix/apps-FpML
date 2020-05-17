@@ -1,0 +1,304 @@
+namespace Org.FpML.RecordKeeping.Relation;
+
+import XSD.FpML.*; 
+import Org.FpML.Confirmation.*; 
+import Org.FpML.PreTrade.*; 
+import Org.FpML.RecordKeeping.*; 
+import Org.FpML.Reporting.*; 
+import Org.FpML.Transparency.*; 
+import Org.FpML.Legal.*; 
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.BondOption") 
+relation BondOption_Relation
+{
+  Org.FpML.RecordKeeping.BondOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.BrokerEquityOption") 
+relation BrokerEquityOption_Relation
+{
+  Org.FpML.RecordKeeping.BrokerEquityOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.BulletPayment") 
+relation BulletPayment_Relation
+{
+  Org.FpML.RecordKeeping.BulletPayment
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.CapFloor") 
+relation CapFloor_Relation
+{
+  Org.FpML.RecordKeeping.CapFloor
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.CommodityBasketOption") 
+relation CommodityBasketOption_Relation
+{
+  Org.FpML.RecordKeeping.CommodityBasketOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.CommodityDigitalOption") 
+relation CommodityDigitalOption_Relation
+{
+  Org.FpML.RecordKeeping.CommodityDigitalOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.CommodityForward") 
+relation CommodityForward_Relation
+{
+  Org.FpML.RecordKeeping.CommodityForward
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.CommodityOption") 
+relation CommodityOption_Relation
+{
+  Org.FpML.RecordKeeping.CommodityOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.CommodityPerformanceSwap") 
+relation CommodityPerformanceSwap_Relation
+{
+  Org.FpML.RecordKeeping.CommodityPerformanceSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.CommoditySwap") 
+relation CommoditySwap_Relation
+{
+  Org.FpML.RecordKeeping.CommoditySwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.CommoditySwaption") 
+relation CommoditySwaption_Relation
+{
+  Org.FpML.RecordKeeping.CommoditySwaption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.CorrelationSwap") 
+relation CorrelationSwap_Relation
+{
+  Org.FpML.RecordKeeping.CorrelationSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.CreditDefaultSwap") 
+relation CreditDefaultSwap_Relation
+{
+  Org.FpML.RecordKeeping.CreditDefaultSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.CreditDefaultSwapOption") 
+relation CreditDefaultSwapOption_Relation
+{
+  Org.FpML.RecordKeeping.CreditDefaultSwapOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.DividendSwapOptionTransactionSupplement") 
+relation DividendSwapOptionTransactionSupplement_Relation
+{
+  Org.FpML.RecordKeeping.DividendSwapOptionTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.DividendSwapTransactionSupplement") 
+relation DividendSwapTransactionSupplement_Relation
+{
+  Org.FpML.RecordKeeping.DividendSwapTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.EquityForward") 
+relation EquityForward_Relation
+{
+  Org.FpML.RecordKeeping.EquityForward
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.EquityOption") 
+relation EquityOption_Relation
+{
+  Org.FpML.RecordKeeping.EquityOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.EquityOptionTransactionSupplement") 
+relation EquityOptionTransactionSupplement_Relation
+{
+  Org.FpML.RecordKeeping.EquityOptionTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.EquitySwapTransactionSupplement") 
+relation EquitySwapTransactionSupplement_Relation
+{
+  Org.FpML.RecordKeeping.EquitySwapTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.Fra") 
+relation Fra_Relation
+{
+  Org.FpML.RecordKeeping.Fra
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.FxAccrualDigitalOption") 
+relation FxAccrualDigitalOption_Relation
+{
+  Org.FpML.RecordKeeping.FxAccrualDigitalOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.FxAccrualForward") 
+relation FxAccrualForward_Relation
+{
+  Org.FpML.RecordKeeping.FxAccrualForward
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.FxAccrualOption") 
+relation FxAccrualOption_Relation
+{
+  Org.FpML.RecordKeeping.FxAccrualOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.FxDigitalOption") 
+relation FxDigitalOption_Relation
+{
+  Org.FpML.RecordKeeping.FxDigitalOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.FxFlexibleForward") 
+relation FxFlexibleForward_Relation
+{
+  Org.FpML.RecordKeeping.FxFlexibleForward
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.FxForwardVolatilityAgreement") 
+relation FxForwardVolatilityAgreement_Relation
+{
+  Org.FpML.RecordKeeping.FxForwardVolatilityAgreement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.FxOption") 
+relation FxOption_Relation
+{
+  Org.FpML.RecordKeeping.FxOption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.FxPerformanceSwap") 
+relation FxPerformanceSwap_Relation
+{
+  Org.FpML.RecordKeeping.FxPerformanceSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.FxRangeAccrual") 
+relation FxRangeAccrual_Relation
+{
+  Org.FpML.RecordKeeping.FxRangeAccrual
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.FxSingleLeg") 
+relation FxSingleLeg_Relation
+{
+  Org.FpML.RecordKeeping.FxSingleLeg
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.FxSwap") 
+relation FxSwap_Relation
+{
+  Org.FpML.RecordKeeping.FxSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.FxTargetKnockoutForward") 
+relation FxTargetKnockoutForward_Relation
+{
+  Org.FpML.RecordKeeping.FxTargetKnockoutForward
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.GenericProduct") 
+relation GenericProduct_Relation
+{
+  Org.FpML.RecordKeeping.GenericProduct
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.InstrumentTradeDetails") 
+relation InstrumentTradeDetails_Relation
+{
+  Org.FpML.RecordKeeping.InstrumentTradeDetails
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.RegulatoryReportingProduct") 
+relation RegulatoryReportingProduct_Relation
+{
+  Org.FpML.RecordKeeping.RegulatoryReportingProduct
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.Repo") 
+relation Repo_Relation
+{
+  Org.FpML.RecordKeeping.Repo
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.ReturnSwap") 
+relation ReturnSwap_Relation
+{
+  Org.FpML.RecordKeeping.ReturnSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.SecurityLending") 
+relation SecurityLending_Relation
+{
+  Org.FpML.RecordKeeping.SecurityLending
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.StandardProduct") 
+relation StandardProduct_Relation
+{
+  Org.FpML.RecordKeeping.StandardProduct
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.Strategy") 
+relation Strategy_Relation
+{
+  Org.FpML.RecordKeeping.Strategy
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.Swap") 
+relation Swap_Relation
+{
+  Org.FpML.RecordKeeping.Swap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.Swaption") 
+relation Swaption_Relation
+{
+  Org.FpML.RecordKeeping.Swaption
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.TermDeposit") 
+relation TermDeposit_Relation
+{
+  Org.FpML.RecordKeeping.TermDeposit
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.VarianceOptionTransactionSupplement") 
+relation VarianceOptionTransactionSupplement_Relation
+{
+  Org.FpML.RecordKeeping.VarianceOptionTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.VarianceSwap") 
+relation VarianceSwap_Relation
+{
+  Org.FpML.RecordKeeping.VarianceSwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.VarianceSwapTransactionSupplement") 
+relation VarianceSwapTransactionSupplement_Relation
+{
+  Org.FpML.RecordKeeping.VarianceSwapTransactionSupplement
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.VolatilitySwap") 
+relation VolatilitySwap_Relation
+{
+  Org.FpML.RecordKeeping.VolatilitySwap
+}
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.RecordKeeping.VolatilitySwapTransactionSupplement") 
+relation VolatilitySwapTransactionSupplement_Relation
+{
+  Org.FpML.RecordKeeping.VolatilitySwapTransactionSupplement
+}
+
