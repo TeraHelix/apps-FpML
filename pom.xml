@@ -35,16 +35,51 @@
 		<maven.fork.reuse>false</maven.fork.reuse> 
 			
 	</properties>
+  	
+  	<profiles>
+	   <profile>
+	     <id>skipInstall</id>
+	     <activation>
+	       <property>
+	         <name>maven.install.skip</name>
+	         <value>true</value>
+	       </property>
+	     </activation>
+	     <build>
+	       <pluginManagement>
+	         <plugins>
+	           <plugin>
+	             <groupId>org.apache.maven.plugins</groupId>
+	             <artifactId>maven-install-plugin</artifactId>
+	             <executions>
+	               <execution>
+	                 <id>default-install</id>
+	                 <phase>none</phase>
+	               </execution>
+	             </executions>
+	           </plugin>
+	         </plugins>
+	       </pluginManagement>
+	     </build>
+	   </profile>
+  	</profiles>
   
     <modules>
+    	
+    	<module>FpML-spear-core-types</module>
+    	
+    	<!--  
     	<module>FpML-build</module>
 		<module>FpML-model</module>
     	<module>FpML-spear-core-types</module>
     	<module>FpML-examples</module>
     	<module>FpML-relations</module>
+    	 -->
     </modules>
  
     <build>
+
+    
         <pluginManagement>
             <plugins>
             
@@ -549,8 +584,8 @@
 
 		<distributionManagement>
 			<repository>
-				<id>project-target-github</id>
-				<name>GitHub Platform Repository</name>
+				<id>github</id>
+				<name>GitHub TeraHelix Apache Maven Packages</name>
 				<url>https://maven.pkg.github.com/TeraHelix/apps-FpML</url>
 			</repository>
 		</distributionManagement>
