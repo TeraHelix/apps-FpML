@@ -27,36 +27,12 @@
 		<spark.version>2.4.4</spark.version>
 		<jaxb.version>2.3.2</jaxb.version>
 	
-		<com.github.javaparser.version>3.15.7</com.github.javaparser.version>
-	   	<org.reflections.version>0.9.11</org.reflections.version>
-		    	
-		<antlr.version>4.6</antlr.version>
-		
-		<vaadin.version>8.10.3</vaadin.version>
-		<vaadin.plugin.version>8.9.1</vaadin.plugin.version>
-		
-		<vaadin.aceeditor.version>0.8.15</vaadin.aceeditor.version>
-		<vaadin.charts.version>4.1.0.beta1</vaadin.charts.version>
-		<vaadin.context.menu.version>3.0.0</vaadin.context.menu.version>
-		<vaadin.autocomplete.version>0.2.4</vaadin.autocomplete.version>
-		<vaadin.slider.version>2.2.1</vaadin.slider.version>
-		
-		<pdfbox.version>2.0.15</pdfbox.version>
-		
-		<vaadin.visjs.version>1.0.1.0</vaadin.visjs.version>
-		<vaadin.charts.developer.license>ae1431b5-4d27-452f-a396-8c66fa6de777</vaadin.charts.developer.license>
-		
-		<!-- If there are no local customizations, this can also be "fetch" or "cdn" -->
-		<vaadin.widgetset.mode>local</vaadin.widgetset.mode>
-
-	    	<tomcat.version>9.0.33</tomcat.version>
-	    	
-	    	<maven.compiler.initial.memory>1024M</maven.compiler.initial.memory>
-	    	<maven.compiler.max.memory>2048M</maven.compiler.max.memory>
-	    	
-	    	<maven.fork.test.memory>-Xmx2048M</maven.fork.test.memory>
-	    	<maven.fork.count>1</maven.fork.count> <!--  If we run the datastore tests in parallel, we have some issues -->
-	    	<maven.fork.reuse>false</maven.fork.reuse> 
+		<maven.compiler.initial.memory>1024M</maven.compiler.initial.memory>
+		<maven.compiler.max.memory>2048M</maven.compiler.max.memory>
+	
+		<maven.fork.test.memory>-Xmx2048M</maven.fork.test.memory>
+		<maven.fork.count>1</maven.fork.count> <!-- If we run the datastore tests in parallel, we have some issues -->
+		<maven.fork.reuse>false</maven.fork.reuse> 
 			
 	</properties>
   
@@ -518,12 +494,6 @@
         	
 			
 			<!-- End of internal Components -->
-
-			<dependency>
-                <groupId>org.apache.httpcomponents</groupId>
-                <artifactId>httpclient</artifactId>
-                <version>4.5.5</version>
-            </dependency>
             
             <dependency>
     			<groupId>jakarta.xml.bind</groupId>
@@ -543,311 +513,13 @@
     			<version>${jaxb.version}</version>
 	    	</dependency>
 	    	
-	    	
-	    	<dependency>
-		      <groupId>com.github.javaparser</groupId>
-		      <artifactId>javaparser-core</artifactId>
-		      <version>${com.github.javaparser.version}</version>
-		    </dependency>
-		
-		    <dependency>
-		      <groupId>org.reflections</groupId>
-		      <artifactId>reflections</artifactId>
-		      <version>${org.reflections.version}</version>
-		    </dependency>
-             
-            <dependency>
-				<groupId>com.vaadin</groupId>
-				<artifactId>vaadin-bom</artifactId>
-				<version>${vaadin.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-            
-			<dependency>
-				<groupId>com.vaadin</groupId>
-				<artifactId>vaadin-server</artifactId>
-				<version>${vaadin.version}</version>
-			</dependency>
-			
-			<dependency>
-				<groupId>com.vaadin</groupId>
-				<artifactId>vaadin-push</artifactId>
-				<version>${vaadin.version}</version>
-			</dependency>
-			
-			<dependency>
-				<groupId>com.vaadin</groupId>
-				<artifactId>vaadin-client-compiled</artifactId>
-				<version>${vaadin.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.vaadin</groupId>
-				<artifactId>vaadin-themes</artifactId>
-				<version>${vaadin.version}</version>
-			</dependency>
-			
-			<dependency>
-    			<groupId>com.vaadin</groupId>
-    			<artifactId>vaadin-charts</artifactId>
-	    		<version>${vaadin.charts.version}</version>
-			</dependency>
-			
-			<dependency>
-    			<groupId>org.vaadin.addons</groupId>
-    			<artifactId>autocomplete</artifactId>
-    			<version>${vaadin.autocomplete.version}</version>
-			</dependency>
-			
-			<dependency>
-			   <groupId>org.vaadin.addons</groupId>
-			   <artifactId>vaadin-sliderpanel</artifactId>
-			   <version>${vaadin.slider.version}</version>
-			</dependency>
-			
-			<dependency>
-			   <groupId>org.vaadin.addons</groupId>
-			   <artifactId>aceeditor</artifactId>
-			   <version>${vaadin.aceeditor.version}</version>
-			</dependency>
-			
-			<dependency>
-    			<groupId>org.vaadin.addon</groupId>
-    			<artifactId>visjs-addon</artifactId>
-    			<version>${vaadin.visjs.version}</version>
-			</dependency>
-			
-			<!-- https://mvnrepository.com/artifact/com.vaadin/vaadin-context-menu -->
-	  		<dependency>
-    			<groupId>com.vaadin</groupId>
-    			<artifactId>vaadin-context-menu</artifactId>
-    			<version>${vaadin.context.menu.version}</version>
-			</dependency>
-	            
-            <dependency>
-    			<groupId>org.apache.httpcomponents</groupId>
-    			<artifactId>httpmime</artifactId>
-    			<version>4.5.5</version>
-			</dependency>
-			
-			<dependency>
-        		<groupId>com.zaxxer</groupId>
-        		<artifactId>HikariCP</artifactId>
-        		<version>3.1.0</version>
-    		</dependency>
-    		
-    		<dependency>
-				<groupId>javax.servlet</groupId>
-				<artifactId>javax.servlet-api</artifactId>
-				<version>4.0.1</version>
-    			<scope>provided</scope>
-    		</dependency>
-            
-            <dependency>
-			    <groupId>org.quartz-scheduler</groupId>
-			    <artifactId>quartz</artifactId>
-			    <version>${quartz.version}</version>
-			  </dependency>
-			  
-			  <dependency>
-			    <groupId>org.quartz-scheduler</groupId>
-			    <artifactId>quartz-jobs</artifactId>
-			    <version>${quartz.version}</version>
-			  </dependency>   
-            
-            <dependency>
-       			 <groupId>io.dropwizard.metrics</groupId>
-        		 <artifactId>metrics-core</artifactId>
-       			 <version>3.1.5</version>
-    		</dependency>
 
-            <dependency>
-		        <groupId>org.glassfish.jersey</groupId>
-		        <artifactId>jersey-bom</artifactId>
-		        <version>${jersey.version}</version>
-		        <type>pom</type>
-		        <scope>import</scope>
-	      </dependency>
-            
-            <dependency>
+			<dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>4.12</version>
             </dependency>
-            <dependency>
-                <groupId>org.apache.logging.log4j</groupId>
-                <artifactId>log4j-api</artifactId>
-                <version>2.11.0</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.logging.log4j</groupId>
-                <artifactId>log4j-core</artifactId>
-                <version>2.11.0</version>
-            </dependency>
-            <dependency>
-                 <groupId>org.jgrapht</groupId>
-    			 <artifactId>jgrapht-core</artifactId>
-				 <version>1.3.0</version>
-            </dependency>
-            <dependency>
-                 <groupId>org.jgrapht</groupId>
-    			 <artifactId>jgrapht-io</artifactId>
-    			<version>1.3.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-databind</artifactId>
-                <version>2.6.7.1</version>
-            </dependency>
-            
-            <dependency>
-				<groupId>com.fasterxml</groupId>
-				<artifactId>jackson-xml-databind</artifactId>
-				<version>2.6.7.1</version>
-			</dependency>
-		
-            <dependency>
-                <groupId>org.antlr</groupId>
-                <artifactId>antlr4-runtime</artifactId>
-                <version>4.6</version>
-            </dependency>
-            <dependency>
-                <groupId>commons-cli</groupId>
-                <artifactId>commons-cli</artifactId>
-                <version>1.4</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-lang3</artifactId>
-                <version>3.7</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fifesoft</groupId>
-                <artifactId>rsyntaxtextarea</artifactId>
-                <version>2.5.8</version>
-            </dependency>
-            <dependency>
-                <groupId>commons-io</groupId>
-                <artifactId>commons-io</artifactId>
-                <version>2.6</version>
-            </dependency>
-            <dependency>
-				<groupId>com.google.guava</groupId>
-		   		<artifactId>guava</artifactId>
-		   		<version>13.0.1</version>
-			</dependency>
-			
-			<dependency>
-		      <groupId>io.swagger.core.v3</groupId>
-		      <artifactId>swagger-annotations</artifactId>
-		      <version>2.0.3</version>
-		    </dependency>
-		    
-            <dependency>
-			    <groupId>net.sf.py4j</groupId>
-			    <artifactId>py4j</artifactId>
-			    <version>0.10.7</version>
-			</dependency>
-			
-			<dependency>
-				<groupId>org.apache.zookeeper</groupId>
-  				<artifactId>zookeeper</artifactId>
-	  			<version>3.4.13</version>
-  			</dependency>
-			
-			<dependency>
-				<groupId>org.apache.spark</groupId>
-				<artifactId>spark-core_2.11</artifactId>
-				<version>${spark.version}</version>
-			</dependency>
-		
-			<dependency>
-				<groupId>org.apache.spark</groupId>
-				<artifactId>spark-repl_2.11</artifactId>
-				<version>${spark.version}</version>
-			</dependency>
-					
-			<dependency>
-				<groupId>org.apache.spark</groupId>
-				<artifactId>spark-sql_2.11</artifactId>
-				<version>${spark.version}</version>
-			</dependency>
-			
-			<dependency>
-				<groupId>com.amazon.deequ</groupId>
-				<artifactId>deequ</artifactId>
-				<version>1.0.1</version>
-			</dependency>
-			
-			<dependency>
-    			<groupId>org.scala-lang</groupId>
-    			<artifactId>scala-compiler</artifactId>
-    			<version>2.11.12</version>
-			</dependency>
-			
-			<dependency>
-	    		<groupId>org.apache.kafka</groupId>
-			    <artifactId>kafka-clients</artifactId>
-			    <version>${kafka.version}</version>
-			</dependency>
-            
-			<dependency>
-  				  <groupId>org.mockito</groupId>
-    				<artifactId>mockito-core</artifactId>
-   				 <version>2.22.0</version>
-			</dependency>
-			
-			<dependency>
-		    	<groupId>org.apache.commons</groupId>
-		    	<artifactId>commons-compress</artifactId>
-		    	<version>1.18</version>
-			</dependency>
-			
-			<dependency>
-			  <groupId>org.xerial.snappy</groupId>
-			  <artifactId>snappy-java</artifactId>
-			  <version>1.1.7.3</version>
-			</dependency>
-			
-			<dependency>
-				<groupId>commons-beanutils</groupId>
-				<artifactId>commons-beanutils</artifactId>
-				<version>1.9.2</version>
-			</dependency>
-			
-			<!-- Tomcat Embedded Dependencies - should only really be used by the plugin and test projects that launch
-				an embedded Tomcat -->
-				
-			<dependency>
-		        <groupId>org.apache.tomcat.embed</groupId>
-		        <artifactId>tomcat-embed-core</artifactId>
-		        <version>${tomcat.version}</version>
-		    </dependency>
-		    
-			<dependency>
-			    <groupId>org.apache.tomcat.embed</groupId>
-			    <artifactId>tomcat-embed-jasper</artifactId>
-			    <version>${tomcat.version}</version>
-			</dependency>
-			
-			 <dependency>
-			    <groupId>org.apache.tomcat.embed</groupId>
-			    <artifactId>tomcat-embed-el</artifactId>
-			    <version>${tomcat.version}</version>
-			</dependency>
-			
-			<dependency>
-			    <groupId>org.apache.tomcat.embed</groupId>
-			    <artifactId>tomcat-embed-websocket</artifactId>
-			    <version>${tomcat.version}</version>
-			</dependency>
-			
-			<dependency>
-			    <groupId>org.apache.pdfbox</groupId>
-			    <artifactId>pdfbox</artifactId>
-			    <version>${pdfbox.version}</version>
-			</dependency>
-			
+
 			<dependency>
 	            <groupId>de.vandermeer</groupId>
 	            <artifactId>asciitable</artifactId>
@@ -859,12 +531,6 @@
     </dependencyManagement>
 
 	<repositories>
-	    
-	   <repository>
-            <id>vaadin-addons</id>
-            <name>Vaadin Add-Ons Repository</name>
-            <url>http://maven.vaadin.com/vaadin-addons/</url>
-        </repository>
         
    		<repository>
 			<id>snapshot-repository.java.net</id>
@@ -873,20 +539,20 @@
 			<layout>default</layout>
 		</repository>
 		
-	<repository>
-            <id>maven-central-repo</id>
-            <name>Central Maven Repository</name>
-            <url>https://repo.maven.apache.org/maven2/</url>
-        </repository>
+		<repository>
+	            <id>maven-central-repo</id>
+	            <name>Central Maven Repository</name>
+	            <url>https://repo.maven.apache.org/maven2/</url>
+	        </repository>
 		
 	</repositories>
 
-	<distributionManagement>
-		<repository>
-			<id>github</id>
-			<name>GitHub Platform Repository</name>
-			<url>https://maven.pkg.github.com/TeraHelix/apps-FpML</url>
-		</repository>
-	</distributionManagement>
+		<distributionManagement>
+			<repository>
+				<id>github</id>
+				<name>GitHub Platform Repository</name>
+				<url>https://maven.pkg.github.com/TeraHelix/apps-FpML</url>
+			</repository>
+		</distributionManagement>
 
 </project>

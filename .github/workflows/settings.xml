@@ -1,0 +1,87 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <activeProfiles>
+        <activeProfile>default</activeProfile>
+    </activeProfiles>
+
+    <profiles>
+        <profile>
+            <id>default</id>
+            <repositories>
+                <repository>
+                    <id>github-spear</id>
+                    <name>GitHub Spear Repository</name>
+                    <url>https://maven.pkg.github.com/TeraHelix/spear</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+                <repository>
+                    <id>github-platform</id>
+                    <name>GitHub Platform Repository</name>
+                    <url>https://maven.pkg.github.com/TeraHelix/platform</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+                <repository>
+                    <id>github</id>
+                    <name>GitHub Apps Repository</name>
+                    <url>https://maven.pkg.github.com/TeraHelix/apps-FpML</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>github-spear</id>
+                    <name>GitHub Spear Repository</name>
+                    <url>https://maven.pkg.github.com/TeraHelix/spear</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </pluginRepository>
+                <pluginRepository>
+                    <id>github-platform</id>
+                    <name>GitHub Platform Repository</name>
+                    <url>https://maven.pkg.github.com/TeraHelix/platform</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </pluginRepository>
+                <pluginRepository>
+                    <id>github</id>
+                    <name>GitHub Apps Repository</name>
+                    <url>https://maven.pkg.github.com/TeraHelix/apps-FpML</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </pluginRepository>
+            </pluginRepositories>
+
+        </profile>
+    </profiles>
+
+    <servers>
+        <server>
+            <id>github-spear</id>
+            <username>${env.USERNAME_PACKAGE_READ_WRITE_DELETE}</username>
+            <password>${env.TOKEN_PACKAGE_READ_WRITE_DELETE}</password>
+        </server>
+        <server>
+            <id>github-platform</id>
+            <username>${env.USERNAME_PACKAGE_READ_WRITE_DELETE}</username>
+            <password>${env.TOKEN_PACKAGE_READ_WRITE_DELETE}</password>
+        </server>
+        <server>
+            <id>github</id>
+            <username>${env.USERNAME_PACKAGE_READ_WRITE_DELETE}</username>
+            <password>${env.TOKEN_PACKAGE_READ_WRITE_DELETE}</password>
+        </server>
+    </servers>
+
+</settings>
