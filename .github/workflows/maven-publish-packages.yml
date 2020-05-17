@@ -18,22 +18,6 @@ jobs:
         java-version: 11
         settings-path: ${{ github.workspace }}
 
-    - name: Cache Maven Modules
-      uses: actions/cache@v1
-      with:
-        path: ~/.m2/repository
-        key: ${{ runner.os }}-maven-platform-${{ hashFiles('**/pom.xml') }}
-        restore-keys: |
-          ${{ runner.os }}-maven-platform-
-
-    - name: Cache Third-Party
-      uses: actions/cache@v1
-      with:
-        path: third-party
-        key: ${{ runner.os }}-maven-platform-third-party-${{ hashFiles('third-party/pom.xml') }}
-        restore-keys: |
-          ${{ runner.os }}-maven-platform-third-party-
-
     - name: List the Settings Directory
       run: |
         ls -la $GITHUB_WORKSPACE/.github/workflows/settings.xml
@@ -47,7 +31,7 @@ jobs:
         cat $GITHUB_WORKSPACE/settings.xml
 
     - name: Deploy Maven Artifacts
-      run: mvn -s $GITHUB_WORKSPACE/.github/workflows/settings.xml -X -B deploy --file pom.xml -DskipTests=true
+      run: mvn -s $GITHUB_WORKSPACE/.github/workflows/settings.xml -B deploy -DskipTests=true --file pom.xml 
       env:
         USERNAME_PACKAGE_READ_WRITE_DELETE: jjsteenkamp
         TOKEN_PACKAGE_READ_WRITE_DELETE: ${{ secrets.token_package_read_write_delete }}
