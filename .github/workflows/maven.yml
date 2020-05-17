@@ -1,4 +1,4 @@
-name: Platform Build
+name: Apps FpML Build
 
 on: [push]
 

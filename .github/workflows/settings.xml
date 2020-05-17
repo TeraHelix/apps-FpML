@@ -27,14 +27,6 @@
                         <enabled>true</enabled>
                     </snapshots>
                 </repository>
-                <repository>
-                    <id>github</id>
-                    <name>GitHub Apps Repository</name>
-                    <url>https://maven.pkg.github.com/TeraHelix/apps-FpML</url>
-                    <snapshots>
-                        <enabled>true</enabled>
-                    </snapshots>
-                </repository>
             </repositories>
             <pluginRepositories>
                 <pluginRepository>
@@ -49,14 +41,6 @@
                     <id>github-platform</id>
                     <name>GitHub Platform Repository</name>
                     <url>https://maven.pkg.github.com/TeraHelix/platform</url>
-                    <snapshots>
-                        <enabled>true</enabled>
-                    </snapshots>
-                </pluginRepository>
-                <pluginRepository>
-                    <id>github</id>
-                    <name>GitHub Apps Repository</name>
-                    <url>https://maven.pkg.github.com/TeraHelix/apps-FpML</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
