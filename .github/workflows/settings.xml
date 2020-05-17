@@ -63,8 +63,8 @@
         </server>
         <server>
             <id>github</id>
-            <username>${env.USERNAME_PACKAGE_READ_WRITE_DELETE}</username>
-            <password>${env.TOKEN_PACKAGE_READ_WRITE_DELETE}</password>
+            <username>${env.GITHUB_ACTOR}</username>
+          	<password>${env.GITHUB_TOKEN}</password>
         </server>
     </servers>
 
