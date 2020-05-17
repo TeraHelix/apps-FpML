@@ -1,7 +1,7 @@
 # TeraHelix FpML Application
 
+![Apps FpML Build](https://github.com/TeraHelix/apps-FpML/workflows/Apps%20FpML%20Build/badge.svg)
 ![Apps FpML Publish Packages 1.0-SNAPSHOT](https://github.com/TeraHelix/apps-FpML/workflows/Apps%20FpML%20Publish%20Packages%201.0-SNAPSHOT/badge.svg)
-
 
 This project is a Spear integration of standard Financial products Markup Language (https://www.fpml.org/).
 
