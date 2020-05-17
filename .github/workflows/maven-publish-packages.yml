@@ -31,7 +31,7 @@ jobs:
         cat $GITHUB_WORKSPACE/settings.xml
 
     - name: Deploy Maven Artifacts
-      run: mvn -s $GITHUB_WORKSPACE/.github/workflows/settings.xml -B deploy -DskipTests=true --file pom.xml 
+      run: mvn -s $GITHUB_WORKSPACE/.github/workflows/settings.xml -X -B deploy -DskipTests=true --file pom.xml 
       env:
         USERNAME_PACKAGE_READ_WRITE_DELETE: jjsteenkamp
         TOKEN_PACKAGE_READ_WRITE_DELETE: ${{ secrets.token_package_read_write_delete }}
