@@ -16,7 +16,7 @@
     <dependencies>
 		<dependency>
 			<groupId>io.terahelix.apps.FpML</groupId>
-			<artifactId>FpML-relations</artifactId>
+			<artifactId>FpML-relations-gen</artifactId>
 		</dependency> 
     </dependencies>
 

@@ -70,7 +70,7 @@
 		<module>FpML-model</module>
     	<module>FpML-spear-core-types</module>
     	<module>FpML-examples</module>
-    	<module>FpML-relations</module>
+    	<module>FpML-relations-gen</module>
 
     </modules>
  
@@ -466,7 +466,7 @@
 			
 			<dependency>
 				<groupId>io.terahelix.apps.FpML</groupId>
-				<artifactId>FpML-relations</artifactId>
+				<artifactId>FpML-relations-gen</artifactId>
 				<version>${project.version}</version>
 			</dependency>  
         	

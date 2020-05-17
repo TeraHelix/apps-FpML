@@ -10,9 +10,9 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
  
-    <artifactId>FpML-relations</artifactId>
+    <artifactId>FpML-relations-gen</artifactId>
     <packaging>jar</packaging>
-    <name>FpML-relations</name>
+    <name>FpML-relations-gen</name>
 
 	<build>
 		 <plugins>
