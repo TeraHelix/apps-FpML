@@ -1,0 +1,57 @@
+namespace ColumnMapping;
+
+/**
+* A column mapping definition.
+*
+*/
+struct Definition
+{
+	key
+	{
+		/**
+		* The fully qualified name of the target relation.
+		*/
+		TargetRelation			string;
+	
+		/**
+		* The name you prefer to give to this relation.
+		*/
+		Name				string;
+		
+	}
+	
+	/**
+	* The mapping functions for all the columns
+	*/	
+	MappingDefinitions		list<MappingDefinition>
+	
+	/**
+	* An optional set of additional columns that you need to 
+	* 'make the mapping work'. E.g in the case of type information.
+	*/
+	DefaultValueColumns		opt map<string, string>
+	
+}
+
+struct MappingDefinition
+{
+	SourceColumns			list<ColumnDef>
+	
+	TransformFunction		string
+	
+	TargetColumns			list<ColumnDef>
+}
+ 
+struct ColumnDef
+{
+	key
+	{
+		Name				string
+		Type				string						
+	}
+	
+	Description				opt string
+}
+
+
+

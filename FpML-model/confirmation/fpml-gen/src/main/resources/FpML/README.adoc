@@ -1,0 +1,8 @@
+= FpML Confirmations Files
+
+This directory the FpML Confirmation definitions at version 5.11.
+
+* XSDs available from : https://www.fpml.org/the_standard/current/ - look for the confirmations link.
+
+ 
+

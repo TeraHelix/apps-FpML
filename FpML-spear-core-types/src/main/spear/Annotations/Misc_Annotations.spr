@@ -1,0 +1,16 @@
+namespace Au.Com.Westpac;
+
+@Annotation
+struct ComplexityLevel
+{
+	Name				string
+
+	Level				int
+}
+
+
+@Annotation
+struct SourceTypeOfRelation
+{
+	TypeName			string
+}

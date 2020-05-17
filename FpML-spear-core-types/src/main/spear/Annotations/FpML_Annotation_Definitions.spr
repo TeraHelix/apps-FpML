@@ -1,0 +1,15 @@
+namespace XSD.FpML;
+
+import runtime.system.*;
+
+@Annotation
+struct FpMLDoc
+{
+    URL				   string
+}
+
+
+
+
+
+ 

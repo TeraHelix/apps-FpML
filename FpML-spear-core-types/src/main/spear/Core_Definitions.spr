@@ -1,0 +1,31 @@
+namespace XSD.Core;
+
+
+/**
+* The equivalent of a JAXB element type.
+
+*/
+unionstruct AnyValue
+{
+    SpearObject                 object
+   
+    EnumValue                   enum
+    
+	BooleanValue				boolean
+	
+	IntValue					int
+	
+	DoubleValue					double
+	
+	LongValue					long
+	
+	StringValue					string
+	
+	InstantValue       			instant
+	
+    DateValue					date
+    
+    LocalDateTimeValue			datetime
+    
+}
+

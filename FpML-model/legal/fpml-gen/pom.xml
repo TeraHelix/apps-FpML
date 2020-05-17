@@ -1,0 +1,137 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+        <groupId>io.terahelix.apps.FpML</groupId>
+        <artifactId>FpML-model-legal</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+	
+    <artifactId>FpML-model-legal-fpml-gen</artifactId>
+    <packaging>jar</packaging>
+    <name>FpML-model-legal-fpml-gen</name>
+
+	<build>
+		 <plugins>
+		 
+			<plugin>
+				<artifactId>maven-clean-plugin</artifactId>
+				<configuration>
+					<filesets>
+						<fileset>
+							<directory>src/main/java/org</directory>
+						</fileset>
+						<fileset>
+							<directory>target</directory>
+						</fileset>
+					</filesets>
+				</configuration>
+			</plugin>
+			
+			<plugin>
+				<groupId>io.terahelix</groupId>
+				<artifactId>terahelix-spear-xsd-compilers-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>terahelix-spear-xsd-compilers-maven-compilers-maven-plugin-execution-legal</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>xsd-java</goal>
+						</goals>
+						<configuration>
+							<xsdInputDirectory>src/main/resources/FpML/legal</xsdInputDirectory>
+							<outputDirectory>src/main/java</outputDirectory>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			
+			<plugin>
+                 <artifactId>maven-antrun-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>initialize</phase>
+                        <configuration> 
+                        	<tasks>
+                        		<echo message="Building an Index for the FpML Resources in the Classpath "/>
+                                <java classname="io.terahelix.common.IndexFileCreatorUtility"
+                                      fork="true"
+	                                  failonerror="true"
+                                      classpathref="maven.plugin.classpath">
+                                   <arg value="src/main/resources/FpML/legal"/>
+                                   <arg value="src/main/resources/FpML/legal/FpML-Resources-Index.txt"/>
+                                </java>
+                        	</tasks>
+                        </configuration>
+                        <goals>
+		              		<goal>run</goal>
+		            	</goals>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <dependency> 
+						<groupId>io.terahelix</groupId>
+						<artifactId>terahelix-common-micro</artifactId>
+						<version>${terahelix-spear-version}</version> 
+					</dependency>
+                </dependencies>
+            </plugin>
+            
+            <plugin>
+    			<artifactId>maven-assembly-plugin</artifactId>
+    			<executions>
+    				<execution>
+    					<id>package-items-up</id>
+    					<phase>package</phase>
+    					<goals>
+    						<goal>single</goal>
+    					</goals>
+    					<configuration>
+    						<descriptors>
+    							<descriptor>src/main/assembly/assembly.xml</descriptor>
+    						</descriptors>
+    						<archiverConfig>
+    							<compress>false</compress>
+    						</archiverConfig>
+    					</configuration>
+    				</execution>
+    			</executions>
+    		</plugin>
+			
+		</plugins>
+		
+	</build>
+
+    <dependencies>
+ 
+		<dependency>
+    		<groupId>jakarta.xml.bind</groupId>
+    		<artifactId>jakarta.xml.bind-api</artifactId>
+		</dependency>
+		
+		<dependency>
+		    <groupId>jakarta.xml.bind</groupId>
+		    <artifactId>jakarta.xml.bind-api</artifactId>
+		</dependency>
+		
+		<dependency> 
+		    <groupId>org.glassfish.jaxb</groupId>
+		    <artifactId>jaxb-runtime</artifactId>
+		</dependency>
+		
+		<dependency> 
+			<groupId>io.terahelix.apps.FpML</groupId>
+			<artifactId>FpML-spear-core-types</artifactId>
+		</dependency>
+		
+		<dependency> 
+			<groupId>io.terahelix</groupId>
+			<artifactId>terahelix-common-micro</artifactId>
+		</dependency>
+		
+    </dependencies>
+
+</project>

@@ -1,0 +1,141 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>io.terahelix.apps.FpML</groupId>
+        <artifactId>FpML-model-recordkeeping</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+ 
+    <artifactId>FpML-model-recordkeeping-spear-gen</artifactId>
+    <packaging>jar</packaging>
+    <name>FpML-model-recordkeeping-spear-gen</name>
+
+	<build>
+		 <plugins>
+ 			
+ 			<plugin>
+				<artifactId>maven-clean-plugin</artifactId>
+				<configuration>
+					<filesets>
+						<fileset>
+							<directory>src/main/spear/FpML</directory>
+						</fileset>
+						<fileset>
+							<directory>target</directory>
+						</fileset>
+					</filesets>
+				</configuration>
+			</plugin>
+ 
+		 	<plugin>
+				<groupId>io.terahelix</groupId>
+				<artifactId>terahelix-spear-xsd-compilers-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>terahelix-spear-xsd-compilers-maven-plugin-execution-recordkeeping</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>jaxb-spear</goal>
+						</goals>
+					</execution>
+				</executions>
+				
+				<configuration>
+					<xsdSourcePath>../fpml-gen/src/main/resources</xsdSourcePath>
+					<sourcePackage>org</sourcePackage>
+					<sourceDirectory>../fpml-gen/src/main/java</sourceDirectory>
+					<outputDirectory>src/main/spear/FpML</outputDirectory>
+					
+					<defaultNamespaceImport>XSD.FpML</defaultNamespaceImport>
+					<docAndSourceLinksProviderClass>io.terahelix.apps.FpML.FpMLDocAndSourceLinksProvider</docAndSourceLinksProviderClass>
+					
+					<packageMapperSpecs>
+						<packageMapperSpec>
+							<sourceStartsWith>org.fpml.fpml_5.recordkeeping</sourceStartsWith>
+							<targetPackage>Org.FpML.RecordKeeping</targetPackage>
+							<targetDirectory>RecordKeeping</targetDirectory>
+							<targetNamespace>http://www.fpml.org/FpML-5/recordkeeping</targetNamespace>
+						</packageMapperSpec>
+						
+						<packageMapperSpec>
+							<sourceStartsWith>org.w3</sourceStartsWith>
+							<targetPackage>Org.W3</targetPackage>
+							<targetDirectory>OrgW3</targetDirectory>
+							<targetNamespace>http://www.w3.org/2001/XMLSchema</targetNamespace>
+							<generateCode>false</generateCode>
+						</packageMapperSpec>
+
+						
+					</packageMapperSpecs>
+				</configuration>
+				
+				<dependencies>
+					<dependency>
+						<groupId>io.terahelix.apps.FpML</groupId>
+						<artifactId>FpML-model-recordkeeping-fpml-gen</artifactId>
+						<version>${project.version}</version>
+					</dependency>
+				</dependencies>
+				
+			</plugin>
+		   
+            <plugin>
+                <groupId>io.terahelix</groupId>
+                <artifactId>terahelix-spear-maven-plugin</artifactId>
+            </plugin>
+            
+            <plugin>
+    			<artifactId>maven-assembly-plugin</artifactId>
+    			<executions>
+    				<execution>
+    					<id>package-items-up</id>
+    					<phase>package</phase>
+    					<goals>
+    						<goal>single</goal>
+    					</goals>
+    					<configuration>
+    						<descriptors>
+    							<descriptor>src/main/assembly/assembly.xml</descriptor>
+    						</descriptors>
+    						<archiverConfig>
+    							<compress>false</compress>
+    						</archiverConfig>
+    					</configuration>
+    				</execution>
+    			</executions>
+    		</plugin>
+            
+            
+		</plugins>
+	</build>
+
+    <dependencies>
+
+		<dependency>
+            <groupId>io.terahelix.apps.FpML</groupId>
+             <artifactId>FpML-model-recordkeeping-fpml-gen</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>io.terahelix.apps.FpML</groupId>
+             <artifactId>FpML-model-codelist-spear-gen</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>io.terahelix.apps.FpML</groupId>
+             <artifactId>FpML-spear-core-types</artifactId>
+        </dependency>
+
+		<dependency>
+            <groupId>io.terahelix</groupId>
+             <artifactId>terahelix-spear-core</artifactId>
+        </dependency>
+     
+        
+    </dependencies>
+
+</project>
