@@ -9,7 +9,7 @@ Combining the extensibility of Spear with comprehensive industry standard models
 
 ## Building and Running TeraHelix FpML Application
 
-To build and run the TeraHelix FpML Application locally, please refer to our [README-Building.md] guide (README-Building.md)
+To build and run the TeraHelix FpML Application locally, please refer to our [README-Building.md guide](README-Building.md)  
 
 
 
