@@ -42,7 +42,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>A fee paid by the borrower to keep loan in place until it can be used.  For a revolver, the fee paid by a borrower on unused/funded commitments.</SimpleValue>
+            <SimpleValue>A fee paid by the borrower to keep loan in place until it can be used. For a revolver, the fee paid by a borrower on unused/funded commitments.</SimpleValue>
          </Value>
       </Row>
       <Row>

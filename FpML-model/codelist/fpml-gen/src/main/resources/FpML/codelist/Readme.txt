@@ -36,7 +36,7 @@ FpML Schemes (represented in XML)
  cashflow-type
  cdx-index-annex-source
  cftc-commodity-code - (The CFTC based code for Large Trader Position Reporting (Part 20) purposes)
- cftc-commodity-reference-price  - (Deprecated. Will be removed on Jan-25-2020. The CFTC based code for Large Trader Position Reporting (Part 20) purposes )
+ cftc-commodity-reference-price  - (Deleted. Replaced by The CFTC based code for Large Trader Position Reporting (Part 20) purposes is no longer supported by CFTC. Replaced with ISDA commodity-reference-price)
  clearance-system
  clearing-exception-reason
  clearing-status

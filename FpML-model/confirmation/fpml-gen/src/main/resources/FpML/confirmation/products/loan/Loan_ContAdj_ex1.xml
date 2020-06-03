@@ -6,7 +6,7 @@
 <!--Version is 5-11-->
 <!--NS is http://www.fpml.org/FpML-5/confirmation-->
 <!--
-        == Copyright (c) 2018-2019 All rights reserved.
+        == Copyright (c) 2018-2020 All rights reserved.
         == Financial Products Markup Language is subject to the FpML public license.
         == A copy of this license is available at http://www.fpml.org/license/license.html
 -->
@@ -41,13 +41,13 @@ This notice communicates a loan contract adjustment, in this case, an increase.
     <adjustment>
       <adjustmentType>Increase</adjustmentType>
       <amount>
-        <currency currencyScheme="http://www.fpml.org/coding-scheme/external/iso4217-2001-08-15">USD</currency>
+        <currency>USD</currency>
         <amount>5000000.00</amount>
         <shareAmount>500500.00</shareAmount>
       </amount>
     </adjustment>
     <amount>
-      <currency currencyScheme="http://www.fpml.org/coding-scheme/external/iso4217-2001-08-15">USD</currency>
+      <currency>USD</currency>
       <amount>25000000.00</amount>
       <shareAmount>5200500.00</shareAmount>
     </amount>

@@ -42,7 +42,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>The right but not the obligation to buy an asset on predefined terms.  The asset may in turn be based on other assets, for example a spread on prices.</SimpleValue>
+            <SimpleValue>The right but not the obligation to buy an asset on predefined terms. The asset may in turn be based on other assets, for example a spread on prices.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -108,7 +108,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>The right but not the obligation to enter a  swap transaction in which the option holder would pay a fixed rate or price. (Also known as a "Payer" swaption, or "RTP"=Right to Pay swaption.)</SimpleValue>
+            <SimpleValue>The right but not the obligation to enter a swap transaction in which the option holder would pay a fixed rate or price. (Also known as a "Payer" swaption, or "RTP"=Right to Pay swaption.)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -119,7 +119,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>The right but not the obligation to sell an asset on predefined terms.  The asset may in turn be based on other assets, for example a spread on prices.</SimpleValue>
+            <SimpleValue>The right but not the obligation to sell an asset on predefined terms. The asset may in turn be based on other assets, for example a spread on prices.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -130,7 +130,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>The right but not the obligation to enter a  swap transaction in which the option holder would receive a fixed rate or price. (Also known as a "Receiver" swaption, or "RTR"=Right to Receive swaption.)</SimpleValue>
+            <SimpleValue>The right but not the obligation to enter a swap transaction in which the option holder would receive a fixed rate or price. (Also known as a "Receiver" swaption, or "RTR"=Right to Receive swaption.)</SimpleValue>
          </Value>
       </Row>
       <Row>

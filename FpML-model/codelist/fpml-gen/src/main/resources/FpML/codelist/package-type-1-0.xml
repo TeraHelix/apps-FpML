@@ -42,7 +42,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>A strategy in which a firm either pays or receives fixed for intermediate term (the "body"), and  does the opposite (receives or pays fixed) for a short and a long term (the "wings").</SimpleValue>
+            <SimpleValue>A strategy in which a firm either pays or receives fixed for intermediate term (the "body"), and does the opposite (receives or pays fixed) for a short and a long term (the "wings").</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -75,7 +75,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>A package created for a particular client need e.g.,  portfolioCompression, termination.</SimpleValue>
+            <SimpleValue>A package created for a particular client need e.g., portfolioCompression, termination.</SimpleValue>
          </Value>
       </Row>
       <Row>

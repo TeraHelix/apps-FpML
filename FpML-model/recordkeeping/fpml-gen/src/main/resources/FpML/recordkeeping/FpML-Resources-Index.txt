@@ -175,6 +175,7 @@
 /products/record-ex60-generic-irs-mifid2.xml
 /products/record-ex61-generic-bond-forward.xml
 /products/record-ex652-commod-phys-power-swap.xml
+/reg-reporting-example-extension-5-11.xsd
 /samples/record-ex110-amendment.xml
 /samples/record-ex111-increase.xml
 /samples/record-ex112-partial-termination.xml

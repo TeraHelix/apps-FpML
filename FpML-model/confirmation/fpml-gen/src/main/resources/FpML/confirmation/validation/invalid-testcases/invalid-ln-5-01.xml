@@ -13,7 +13,7 @@
 <statementDate>2018-02-27</statementDate>
 <deal id="DEF_ID">
   <partyReference href="AgentParty" />
-  <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">123456ABC</instrumentId>
+  <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">123456ABC</instrumentId>
   <instrumentId instrumentIdScheme="http://www.fpml.org/spec/2002/instrument-id-ISIN-1-0">CP0123456789</instrumentId>
   <description>DEF</description>
   <issuerPartyReference href="IssuerParty" />
@@ -29,7 +29,7 @@
   </currentDealAmount>
   <termLoan id="TermLoanFloating1ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123456</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123456</instrumentId>
     <description>USD 150MUSD Term Loan 1 Floating Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -73,7 +73,7 @@
   </termLoan>
   <termLoan id="TermLoanFloating2ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123457</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123457</instrumentId>
     <description>USD 50MUSD Term Loan 2 Floating Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -117,7 +117,7 @@
   </termLoan>
   <termLoan id="TermLoanFloating3ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123458</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123458</instrumentId>
     <description>USD 5MUSD Term Loan 3 Floating Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -161,7 +161,7 @@
   </termLoan>
   <termLoan id="TermLoanFloating4ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123459</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123459</instrumentId>
     <description>USD 5MUSD Term Loan 4 Floating Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -205,7 +205,7 @@
   </termLoan>
   <termLoan id="TermLoanFloating5ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123460</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123460</instrumentId>
     <description>USD 5MUSD Term Loan 5 Floating Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -249,7 +249,7 @@
   </termLoan>
   <termLoan id="TermLoanFloating6ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123461</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123461</instrumentId>
     <description>USD 5MUSD Term Loan 6 Floating Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -293,7 +293,7 @@
   </termLoan>
   <termLoan id="TermLoanFloating7ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123462</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123462</instrumentId>
     <description>USD 5MUSD Term Loan 7 Floating Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -337,7 +337,7 @@
   </termLoan>
   <termLoan id="TermLoanFloating8ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123463</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123463</instrumentId>
     <description>USD 5MUSD Term Loan 8 Floating Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -381,7 +381,7 @@
   </termLoan>
   <termLoan id="TermLoanFloating9ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123464</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123464</instrumentId>
     <description>USD 5MUSD Term Loan 9 Floating Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -425,7 +425,7 @@
   </termLoan>
   <termLoan id="TermLoanFloating10ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123465</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123465</instrumentId>
     <description>USD 5MUSD Term Loan 10 Floating Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -469,7 +469,7 @@
   </termLoan>
   <termLoan id="TermLoanFloating11ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123466</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123466</instrumentId>
     <description>USD 5MUSD Term Loan 11 Floating Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -513,7 +513,7 @@
   </termLoan>
   <termLoan id="TermLoanFloating12ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123467</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123467</instrumentId>
     <description>USD 5MUSD Term Loan 12 Floating Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -557,7 +557,7 @@
   </termLoan>
   <termLoan id="TermLoanFixed1ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123468</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123468</instrumentId>
     <description>USD 150MUSD Term Loan 1 Fixed Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -600,7 +600,7 @@
   </termLoan>
   <termLoan id="TermLoanFixed2ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123469</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123469</instrumentId>
     <description>USD 50MUSD Term Loan 2 Fixed Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -643,7 +643,7 @@
   </termLoan>
   <termLoan id="TermLoanFixed3ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123470</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123470</instrumentId>
     <description>USD 5MUSD Term Loan 3 Fixed Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -686,7 +686,7 @@
   </termLoan>
   <termLoan id="TermLoanFixed4ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123471</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123471</instrumentId>
     <description>USD 5MUSD Term Loan 4 Fixed Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -729,7 +729,7 @@
   </termLoan>
   <termLoan id="TermLoanFixed5ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123472</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123472</instrumentId>
     <description>USD 5MUSD Term Loan 5 Fixed Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -772,7 +772,7 @@
   </termLoan>
   <termLoan id="TermLoanFixed6ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123473</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123473</instrumentId>
     <description>USD 5MUSD Term Loan 6 Fixed Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -815,7 +815,7 @@
   </termLoan>
   <termLoan id="TermLoanFixed7ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123474</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123474</instrumentId>
     <description>USD 5MUSD Term Loan 7 Fixed Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -858,7 +858,7 @@
   </termLoan>
   <termLoan id="TermLoanFixed8ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123475</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123475</instrumentId>
     <description>USD 5MUSD Term Loan 8 Fixed Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -901,7 +901,7 @@
   </termLoan>
   <termLoan id="TermLoanFixed9ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123476</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123476</instrumentId>
     <description>USD 5MUSD Term Loan 9 Fixed Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -944,7 +944,7 @@
   </termLoan>
   <termLoan id="TermLoanFixed10ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123477</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123477</instrumentId>
     <description>USD 5MUSD Term Loan 10 Fixed Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -987,7 +987,7 @@
   </termLoan>
   <termLoan id="TermLoanFixed11ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123478</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123478</instrumentId>
     <description>USD 5MUSD Term Loan 11 Fixed Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>
@@ -1030,7 +1030,7 @@
   </termLoan>
   <termLoan id="TermLoanFixed12ID">
     <partyReference href="AgentParty" />
-    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP-1-0">ABC123479</instrumentId>
+    <instrumentId instrumentIdScheme="http://www.fpml.org/coding-scheme/external/instrument-id-CUSIP">ABC123479</instrumentId>
     <description>USD 5MUSD Term Loan 12 Fixed Rate</description>
     <borrowerPartyReference href="IssuerParty" />
     <startDate>2018-02-27</startDate>

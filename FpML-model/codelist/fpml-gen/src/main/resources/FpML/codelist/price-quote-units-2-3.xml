@@ -64,7 +64,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>A value expressed in terms of one hundredths of a percent, i.e. 5 means 5 basis points (bp) or  0.05%.</SimpleValue>
+            <SimpleValue>A value expressed in terms of one hundredths of a percent, i.e. 5 means 5 basis points (bp) or 0.05%.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -416,7 +416,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>A log normal volatility, expressed in %/month, where the percentage is represented as a decimal.   For example, 0.15 means a log-normal volatility of 15% per month.</SimpleValue>
+            <SimpleValue>A log normal volatility, expressed in %/month, where the percentage is represented as a decimal. For example, 0.15 means a log-normal volatility of 15% per month.</SimpleValue>
          </Value>
       </Row>
       <Row>

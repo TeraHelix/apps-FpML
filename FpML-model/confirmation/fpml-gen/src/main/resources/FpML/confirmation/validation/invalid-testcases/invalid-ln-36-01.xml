@@ -6,7 +6,7 @@
 <!--Version is 5-11-->
 <!--NS is http://www.fpml.org/FpML-5/confirmation-->
 <!--
-        == Copyright (c) 2018-2019 All rights reserved.
+        == Copyright (c) 2018-2020 All rights reserved.
         == Financial Products Markup Language is subject to the FpML public license.
         == A copy of this license is available at http://www.fpml.org/license/license.html
 -->
@@ -56,7 +56,7 @@
       </applicableTransactions>
       <settlementDetails>
         <id settlementInstructionIdScheme="http://www.company.com/settlementInstructionIdScheme">SettlementInstructionID1</id>
-        <currency currencyScheme="http://www.fpml.org/coding-scheme/currency-1-0">USD</currency>
+        <currency>USD</currency>
         <settlementInstruction>
           <settlementMethod settlementMethodScheme="http://www.fpml.org/coding-scheme/settlement-method">Fedwire</settlementMethod>
           <beneficiary>
@@ -68,7 +68,7 @@
                 </streetAddress>
                 <city>New York</city>
                 <state>NY</state>
-                <country countryScheme="http://www.fpml.org/coding-scheme/external/iso3166">USA</country>
+                <country countryScheme="http://www.fpml.org/coding-scheme/external/iso3166">US</country>
                 <postalCode>10001</postalCode>
               </routingAddress>
               <routingAccountNumber>000000000001</routingAccountNumber>
@@ -79,7 +79,7 @@
       </settlementDetails>
       <settlementDetails>
         <id settlementInstructionIdScheme="http://www.company.com/settlementInstructionIdScheme">SettlementInstructionID1</id>
-        <currency currencyScheme="http://www.fpml.org/coding-scheme/currency-1-0">USD</currency>
+        <currency>USD</currency>
         <settlementInstruction>
           <settlementMethod settlementMethodScheme="http://www.fpml.org/coding-scheme/settlement-method">Fedwire</settlementMethod>
           <beneficiary>
@@ -91,7 +91,7 @@
                 </streetAddress>
                 <city>New York</city>
                 <state>NY</state>
-                <country countryScheme="http://www.fpml.org/coding-scheme/external/iso3166">USA</country>
+                <country countryScheme="http://www.fpml.org/coding-scheme/external/iso3166">US</country>
                 <postalCode>10001</postalCode>
               </routingAddress>
               <routingAccountNumber>000000000001</routingAccountNumber>
@@ -105,7 +105,7 @@
   <party id="LenderParty">
     <partyId partyIdScheme="http://www.fpml.org/coding-scheme/external/party-id-MEI-1-0">EV1000001</partyId>
     <partyName partyNameScheme="http://www.company.com/partyNameScheme">EatonVance</partyName>
-    <country countryScheme="http://www.fpml.org/coding-scheme/external/iso3166">USA</country>
+    <country countryScheme="http://www.fpml.org/coding-scheme/external/iso3166">US</country>
     <person id="JohnSmith">
       <firstName>John</firstName>
       <surname>Smith</surname>
@@ -121,7 +121,7 @@
           </streetAddress>
           <city>New York</city>
           <state>NY</state>
-          <country countryScheme="http://www.fpml.org/coding-scheme/external/iso3166">USA</country>
+          <country countryScheme="http://www.fpml.org/coding-scheme/external/iso3166">US</country>
           <postalCode>10001</postalCode>
         </address>
       </contactInfo>

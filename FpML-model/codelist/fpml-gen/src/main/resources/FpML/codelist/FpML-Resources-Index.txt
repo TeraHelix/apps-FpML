@@ -34,6 +34,7 @@
 /collateral-type-1-0.xml
 /collateralized-exposure-grouping-1-0.xml
 /commodity-business-calendar-3-5.xml
+/commodity-business-calendar-3-6.xml
 /commodity-coal-product-source-3-0.xml
 /commodity-coal-product-type-2-0.xml
 /commodity-coal-quality-adjustments-2-0.xml
@@ -104,6 +105,7 @@
 /facility-feature-1-1.xml
 /facility-type-2-0.xml
 /floating-rate-index-2-27.xml
+/floating-rate-index-2-29.xml
 /fx-template-terms-1-0.xml
 /generic-exercise-style-1-1.xml
 /governing-law-1-2.xml
@@ -182,6 +184,7 @@
 /service-processing-step-1-0.xml
 /service-status-1-0.xml
 /set-of-schemes-1-112.xml
+/set-of-schemes-1-114.xml
 /settled-entity-matrix-source-1-0.xml
 /settlement-date-1-0.xml
 /settlement-method-1-0.xml

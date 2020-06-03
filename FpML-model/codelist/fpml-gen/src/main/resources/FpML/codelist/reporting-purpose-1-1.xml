@@ -53,7 +53,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>A report that is not intended for further distribution in the specified context.  For example, a report that is not intended to be made available to a given supervisory body/regulator in a reporting regime.  The recipient is, however, expected to retain the record.</SimpleValue>
+            <SimpleValue>A report that is not intended for further distribution in the specified context. For example, a report that is not intended to be made available to a given supervisory body/regulator in a reporting regime. The recipient is, however, expected to retain the record.</SimpleValue>
          </Value>
       </Row>
       <Row>

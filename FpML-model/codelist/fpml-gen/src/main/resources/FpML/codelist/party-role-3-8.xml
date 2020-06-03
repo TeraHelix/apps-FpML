@@ -64,7 +64,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>The organization that arranged the trade, i.e. brought together the counterparties.  Synonyms/Alternatives: Inter-dealer broker, agent.</SimpleValue>
+            <SimpleValue>The organization that arranged the trade, i.e. brought together the counterparties. Synonyms/Alternatives: Inter-dealer broker, agent.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -75,7 +75,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>Organization that suffers the economic benefit of the trade.  The beneficiary may be distinct from the principal/counterparty - an example occurs when a hedge fund trades via a prime broker; in this case the principal is the prime broker, but the beneficiary is the hedge fund.  This can be represented as a payer/receiver account in the name of the hedge fund, but it is also possible to add the party role of "Beneficiary" at the partyTradeInformation level.</SimpleValue>
+            <SimpleValue>Organization that suffers the economic benefit of the trade. The beneficiary may be distinct from the principal/counterparty - an example occurs when a hedge fund trades via a prime broker; in this case the principal is the prime broker, but the beneficiary is the hedge fund. This can be represented as a payer/receiver account in the name of the hedge fund, but it is also possible to add the party role of "Beneficiary" at the partyTradeInformation level.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -86,7 +86,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>The entity for which the organization supporting the trade's processing  has booked/recorded the trade. This is used in non-reporting workflows situations in which the trade doesn't need to be reported but a firm still wants to specify their own side.</SimpleValue>
+            <SimpleValue>The entity for which the organization supporting the trade's processing has booked/recorded the trade. This is used in non-reporting workflows situations in which the trade doesn't need to be reported but a firm still wants to specify their own side.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -97,7 +97,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>Acquirer of the legal title to the financial instrument. In the case of an option, the buyer is the holder of the option. In the case of a swap or forward, the buyer will be determined by industry best practice.  This does not refer to an investor or investment manager or other organization on what is typically called  the "Buy side"; for that, see the "Client" role. Corresponds to "Buyer" as defined in certain regulations such as ESMA MiFID II/MIFIR RTS 22 field 9.</SimpleValue>
+            <SimpleValue>Acquirer of the legal title to the financial instrument. In the case of an option, the buyer is the holder of the option. In the case of a swap or forward, the buyer will be determined by industry best practice. This does not refer to an investor or investment manager or other organization on what is typically called the "Buy side"; for that, see the "Client" role. Corresponds to "Buyer" as defined in certain regulations such as ESMA MiFID II/MIFIR RTS 22 field 9.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -141,7 +141,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>Organization that submits the trade to a clearing house on behalf of the principal. Synonyms/alternates:  Futures Commission Merchant (FCM), Clearing Broker, Clearing Member Firm. Some implementations use "Clearing Broker" as synonym.</SimpleValue>
+            <SimpleValue>Organization that submits the trade to a clearing house on behalf of the principal. Synonyms/alternates: Futures Commission Merchant (FCM), Clearing Broker, Clearing Member Firm. Some implementations use "Clearing Broker" as synonym.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -152,7 +152,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>The organization that acts as a central counterparty to clear a derivatives contract.  This is used to represent the role of Central Counterparties (CCPs) or Derivative Clearing Organizations (DCOs).  Sometimes called "ClearingService". Some implementations also use the term "Clearer".</SimpleValue>
+            <SimpleValue>The organization that acts as a central counterparty to clear a derivatives contract. This is used to represent the role of Central Counterparties (CCPs) or Derivative Clearing Organizations (DCOs). Sometimes called "ClearingService". Some implementations also use the term "Clearer".</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -196,7 +196,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>A party to a contractual document.  If the intended usage relates to the context of the trade lifecycle, more specific annotations have been defined which might be more appropriate.</SimpleValue>
+            <SimpleValue>A party to a contractual document. If the intended usage relates to the context of the trade lifecycle, more specific annotations have been defined which might be more appropriate.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -207,7 +207,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>An economic counterparty to the trade.   Synonym: principal.</SimpleValue>
+            <SimpleValue>An economic counterparty to the trade. Synonym: principal.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -284,7 +284,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>A marketplace organization which purpose is to maintain document records.  If the intended usage relates to the context of the trade lifecycle, more specific annotations have been defined which might be more appropriate.</SimpleValue>
+            <SimpleValue>A marketplace organization which purpose is to maintain document records. If the intended usage relates to the context of the trade lifecycle, more specific annotations have been defined which might be more appropriate.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -306,7 +306,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>Entity executing the transaction.  If the transaction is executed directly by the reporting party, it will be the reporting party.  If it is executed by an execution agent or an affiliated party on behalf of the reporting party, it will be that affiliate or agent.</SimpleValue>
+            <SimpleValue>Entity executing the transaction. If the transaction is executed directly by the reporting party, it will be the reporting party. If it is executed by an execution agent or an affiliated party on behalf of the reporting party, it will be that affiliate or agent.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -405,7 +405,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>Organization offiially attached to the reporting party  e.g. partner, branch, subsidiary.</SimpleValue>
+            <SimpleValue>Organization offiially attached to the reporting party e.g. partner, branch, subsidiary.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -427,7 +427,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>A counterparty in a trade, which performs in one of the following capacities: 1) it transfers or agrees to transfer in the future an instrument or title to that instrument in exchange for payment, 2) it writes a derivatives instrument such as an option or a swap in which it provides risk protection to the buyer. This does not refer to the broker/dealer or other organization on what is typically called  the "Sell side"; for that, see the "Executing Broker" role. Corresponds to "Seller" as defined in certain regulations such as ESMA MiFID II/MIFIR RTS 22 field 16.</SimpleValue>
+            <SimpleValue>A counterparty in a trade, which performs in one of the following capacities: 1) it transfers or agrees to transfer in the future an instrument or title to that instrument in exchange for payment, 2) it writes a derivatives instrument such as an option or a swap in which it provides risk protection to the buyer. This does not refer to the broker/dealer or other organization on what is typically called the "Sell side"; for that, see the "Executing Broker" role. Corresponds to "Seller" as defined in certain regulations such as ESMA MiFID II/MIFIR RTS 22 field 16.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -482,7 +482,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>The entity responsible for managing the assets/investments of this party.  Synonnym:  Asset Manager, Investment Manager, Trading Advisory.</SimpleValue>
+            <SimpleValue>The entity responsible for managing the assets/investments of this party. Synonnym: Asset Manager, Investment Manager, Trading Advisory.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -493,7 +493,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>An entity with which this party trades from time to time, ie. with which it acts as a counterparty on some transactions.   This role is used for static reference data, not individual transactions.</SimpleValue>
+            <SimpleValue>An entity with which this party trades from time to time, ie. with which it acts as a counterparty on some transactions. This role is used for static reference data, not individual transactions.</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

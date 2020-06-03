@@ -2,7 +2,7 @@
 <gcl:CodeList xmlns:gcl="http://xml.genericode.org/2004/ns/CodeList/0.2/" xmlns:doc="http://www.fpml.org/coding-scheme/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xml.genericode.org/2004/ns/CodeList/0.2/ CodeList.xsd">
    <Annotation>
       <Description>
-         <doc:definition>Defines a publication in which the rate, price, index or factor is to be found. (e.g  Gas Daily, Platts Bloomberg.)</doc:definition>
+         <doc:definition>Defines a publication in which the rate, price, index or factor is to be found. (e.g Gas Daily, Platts Bloomberg.)</doc:definition>
          <doc:publicationDate>2014-09-15</doc:publicationDate>
       </Description>
    </Annotation>
@@ -273,7 +273,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>CMAI Monomers Market Report.	http://www.ihs.com/products/chemical/index.aspx?pu=1&amp;rd=cmai"</SimpleValue>
+            <SimpleValue>CMAI Monomers Market Report. http://www.ihs.com/products/chemical/index.aspx?pu=1&amp;rd=cmai"</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -284,7 +284,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>CMAI Global Plastics and Polymers Market Report.	http://www.ihs.com/products/chemical/index.aspx?pu=1&amp;=cmai</SimpleValue>
+            <SimpleValue>CMAI Global Plastics and Polymers Market Report. http://www.ihs.com/products/chemical/index.aspx?pu=1&amp;=cmai</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -328,7 +328,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>US Energy Information Adminstration publishes prices as reported by the US Department of Energy.	http://www.eia.gov/petroleum/gasdiesel/</SimpleValue>
+            <SimpleValue>US Energy Information Adminstration publishes prices as reported by the US Department of Energy. http://www.eia.gov/petroleum/gasdiesel/</SimpleValue>
          </Value>
       </Row>
       <Row>

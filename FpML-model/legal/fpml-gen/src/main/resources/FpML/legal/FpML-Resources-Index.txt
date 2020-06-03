@@ -20,3 +20,4 @@
 /legal-document/legal-ex11-scsa-2014-new-york.xml
 /legal-document/legal-ex12-scsa-2014-new-york.xml
 /tidy.log
+/xmldsig-core-schema.xsd

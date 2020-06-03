@@ -6,7 +6,7 @@
 <!--Version is 5-11-->
 <!--NS is http://www.fpml.org/FpML-5/confirmation-->
 <!--
-        == Copyright (c) 2018-2019 All rights reserved.
+        == Copyright (c) 2018-2020 All rights reserved.
         == Financial Products Markup Language is subject to the FpML public license.
         == A copy of this license is available at http://www.fpml.org/license/license.html
 -->
@@ -39,7 +39,7 @@ This notice communicates a single facility definition, in this case, a delayed d
     <maturityDate>2016-06-01</maturityDate>
     <currentCommitment>
       <totalCommitmentAmount>
-        <currency currencyScheme="http://www.fpml.org/coding-scheme/external/iso4217-2001-08-15">USD</currency>
+        <currency>USD</currency>
         <amount>50000000.00</amount>
         <shareAmount>1500000.00</shareAmount>
       </totalCommitmentAmount>
@@ -55,7 +55,7 @@ This notice communicates a single facility definition, in this case, a delayed d
       <rate>0.00975</rate>
       <startDate>2016-01-01</startDate>
       <endDate>2016-06-01</endDate>
-      <currency currencyScheme="http://www.fpml.org/coding-scheme/external/iso4217-2001-08-15">USD</currency>
+      <currency>USD</currency>
       <borrowerPartyReference href="BORROWERINC" />
       <drawdownNoticeDays>3</drawdownNoticeDays>
     </fixedRateOption>

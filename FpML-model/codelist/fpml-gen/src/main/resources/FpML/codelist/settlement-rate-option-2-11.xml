@@ -799,8 +799,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>The Spot Rate for a Rate Calculation Date will be the Philippine Peso/U.S. Dollar morning weighted average rate for that Rate Calculation Date, expressed as the amount of Philippine Pesos per one U.S. Dollar, for settlement in one Business Day, sponsored by Bankers Association of the Philippines (www.bap.org.ph) as its "BAP AM Weighted Average Rate" at approximately 11:30 a.m., Manila time, or as soon thereafter as practicable, on that Rate Calculation Date.
-				</SimpleValue>
+            <SimpleValue>The Spot Rate for a Rate Calculation Date will be the Philippine Peso/U.S. Dollar morning weighted average rate for that Rate Calculation Date, expressed as the amount of Philippine Pesos per one U.S. Dollar, for settlement in one Business Day, sponsored by Bankers Association of the Philippines (www.bap.org.ph) as its "BAP AM Weighted Average Rate" at approximately 11:30 a.m., Manila time, or as soon thereafter as practicable, on that Rate Calculation Date. </SimpleValue>
          </Value>
       </Row>
       <Row>

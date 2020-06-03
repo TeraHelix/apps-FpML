@@ -64,7 +64,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>The trade id of a trade that this one was created to emulate the economic characteristics of.  This trade is in a different legal entity from the original trade.  Typically used as part of a prime brokerage, agency, or similar operation.  Distinguished from MirroredFrom, in which the mirror trade is booked into the same legal entity (but a different book) than the original trade.</SimpleValue>
+            <SimpleValue>The trade id of a trade that this one was created to emulate the economic characteristics of. This trade is in a different legal entity from the original trade. Typically used as part of a prime brokerage, agency, or similar operation. Distinguished from MirroredFrom, in which the mirror trade is booked into the same legal entity (but a different book) than the original trade.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -75,7 +75,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>The trade id of a trade that was created to emulate the economic characteristics of this trade.  This trade is in a different legal entity from the original trade.  Typically used as part of a prime brokerage, agency,  or similar operation.   Distinguished from MirroredTo, in which the mirror trade is booked into the same legal entity (but a different book) than the original trade.</SimpleValue>
+            <SimpleValue>The trade id of a trade that was created to emulate the economic characteristics of this trade. This trade is in a different legal entity from the original trade. Typically used as part of a prime brokerage, agency, or similar operation. Distinguished from MirroredTo, in which the mirror trade is booked into the same legal entity (but a different book) than the original trade.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -86,7 +86,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>The ID of the trade that was submitted for clearing, from which this trade was created.  Equivalent to "originating trade" for a clearing operation.</SimpleValue>
+            <SimpleValue>The ID of the trade that was submitted for clearing, from which this trade was created. Equivalent to "originating trade" for a clearing operation.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -97,7 +97,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>The trade id of a resulting trade (beta or gamma trade) that resulted from this trade during a clearing  operation.  Equivalent to "resulting trade".</SimpleValue>
+            <SimpleValue>The trade id of a resulting trade (beta or gamma trade) that resulted from this trade during a clearing operation. Equivalent to "resulting trade".</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -152,7 +152,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>The trade id of a trade that this one was created to emulate the economic characteristics of.  This trade is in then legal entity as the original trade.  Typically used as part of a prime brokerage, agency,  or similar operation.  Distinguished from BackToBackFrom, in which the back-to-back trade is booked into a different legal entity from the original trade.</SimpleValue>
+            <SimpleValue>The trade id of a trade that this one was created to emulate the economic characteristics of. This trade is in then legal entity as the original trade. Typically used as part of a prime brokerage, agency, or similar operation. Distinguished from BackToBackFrom, in which the back-to-back trade is booked into a different legal entity from the original trade.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -163,7 +163,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>The trade id of a trade that was created to emulate the economic characteristics of this trade.  This trade is in the same legal entity as the original trade.  Typically used as part of a prime brokerage,  agency,  or similar operation.  Distinguished from BackToBackTo, in which the back-to-back trade is booked into a different legal entity  from the original trade.</SimpleValue>
+            <SimpleValue>The trade id of a trade that was created to emulate the economic characteristics of this trade. This trade is in the same legal entity as the original trade. Typically used as part of a prime brokerage, agency, or similar operation. Distinguished from BackToBackTo, in which the back-to-back trade is booked into a different legal entity from the original trade.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -174,7 +174,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>The trade id of a trade that was combined with others more or less identical in characteristics, except possibly size and/or direction, into this trade.  This is typically done to simplify processing.</SimpleValue>
+            <SimpleValue>The trade id of a trade that was combined with others more or less identical in characteristics, except possibly size and/or direction, into this trade. This is typically done to simplify processing.</SimpleValue>
          </Value>
       </Row>
       <Row>

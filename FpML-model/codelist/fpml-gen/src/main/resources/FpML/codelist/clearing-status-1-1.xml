@@ -75,7 +75,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>The trade has been  rescinded from clearing with the CCP.</SimpleValue>
+            <SimpleValue>The trade has been rescinded from clearing with the CCP.</SimpleValue>
          </Value>
       </Row>
       <Row>

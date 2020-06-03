@@ -42,7 +42,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>Both initial margin (independent amount) and variation margin will be posted.  For Transparency view, both parties will do this; for Recordkeeping view, this party will do this (a separate indicator in the other partyTradeInformation block is used for the other side).</SimpleValue>
+            <SimpleValue>Both initial margin (independent amount) and variation margin will be posted. For Transparency view, both parties will do this; for Recordkeeping view, this party will do this (a separate indicator in the other partyTradeInformation block is used for the other side).</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -53,7 +53,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>Applies to Transparency view only.   One party will post some form of collateral (initial margin or variation margin.)</SimpleValue>
+            <SimpleValue>Applies to Transparency view only. One party will post some form of collateral (initial margin or variation margin.)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -64,7 +64,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>Variation margin (but not initial margin) will be posted.  For Transparency view, both parties will do this; for Recordkeeping view, this party will do this (a separate indicator in the other partyTradeInformation block is used for the other side).</SimpleValue>
+            <SimpleValue>Variation margin (but not initial margin) will be posted. For Transparency view, both parties will do this; for Recordkeeping view, this party will do this (a separate indicator in the other partyTradeInformation block is used for the other side).</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -75,7 +75,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>No collateral is posted for this trade.  In Transparency view, no collateral is posted by either party; in Recordkeeping view, no collateral is posted by the counterparty.</SimpleValue>
+            <SimpleValue>No collateral is posted for this trade. In Transparency view, no collateral is posted by either party; in Recordkeeping view, no collateral is posted by the counterparty.</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

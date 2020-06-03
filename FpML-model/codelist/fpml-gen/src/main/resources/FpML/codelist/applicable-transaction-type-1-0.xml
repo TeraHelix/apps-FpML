@@ -42,7 +42,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>AccruingFeePayment - Option reflecting  an existing cash event type.</SimpleValue>
+            <SimpleValue>AccruingFeePayment - Option reflecting an existing cash event type.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -53,7 +53,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>AccruingFeePaymentRetraction - Option reflecting  an existing cash event type.</SimpleValue>
+            <SimpleValue>AccruingFeePaymentRetraction - Option reflecting an existing cash event type.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -64,7 +64,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>Advance - Option reflecting  an existing cash event type.</SimpleValue>
+            <SimpleValue>Advance - Option reflecting an existing cash event type.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -75,7 +75,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>AdvanceRetraction - Option reflecting  an existing cash event type.</SimpleValue>
+            <SimpleValue>AdvanceRetraction - Option reflecting an existing cash event type.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -86,7 +86,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>AllocationPayment - Option reflecting  an existing cash event type.</SimpleValue>
+            <SimpleValue>AllocationPayment - Option reflecting an existing cash event type.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -97,7 +97,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>AllocationPaymentRetraction - Option reflecting  an existing cash event type.</SimpleValue>
+            <SimpleValue>AllocationPaymentRetraction - Option reflecting an existing cash event type.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -108,7 +108,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>InterestPayment - Option reflecting  an existing cash event type.</SimpleValue>
+            <SimpleValue>InterestPayment - Option reflecting an existing cash event type.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -119,7 +119,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>InterestPaymentRetraction - Option reflecting  an existing cash event type.</SimpleValue>
+            <SimpleValue>InterestPaymentRetraction - Option reflecting an existing cash event type.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -130,7 +130,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>NonRecurringFeePayment - Option reflecting  an existing cash event type.</SimpleValue>
+            <SimpleValue>NonRecurringFeePayment - Option reflecting an existing cash event type.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -141,7 +141,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>NonRecurringFeePaymentRetraction - Option reflecting  an existing cash event type.</SimpleValue>
+            <SimpleValue>NonRecurringFeePaymentRetraction - Option reflecting an existing cash event type.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -152,7 +152,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>Repayment - Option reflecting  an existing cash event type.</SimpleValue>
+            <SimpleValue>Repayment - Option reflecting an existing cash event type.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -163,7 +163,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>RepaymentRetraction - Option reflecting  an existing cash event type.</SimpleValue>
+            <SimpleValue>RepaymentRetraction - Option reflecting an existing cash event type.</SimpleValue>
          </Value>
       </Row>
       <Row>

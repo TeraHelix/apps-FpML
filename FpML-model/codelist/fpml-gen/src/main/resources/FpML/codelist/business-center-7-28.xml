@@ -2,14 +2,11 @@
 <gcl:CodeList xmlns:gcl="http://xml.genericode.org/2004/ns/CodeList/0.2/" xmlns:doc="http://www.fpml.org/coding-scheme/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xml.genericode.org/2004/ns/CodeList/0.2/ CodeList.xsd">
    <Annotation>
       <Description>
-         <doc:definition>A business day calendar location</doc:definition>
+         <doc:definition>A 4 character business day calendar location</doc:definition>
          <doc:description>
-            <doc:paragraph>The codes are based on the business calendar location some of which based on the ISO country code or exchange code, or some other codes.</doc:paragraph>
-            <doc:paragraph>Additional business day calendar location codes could be built according to the following rules: the first two characters represent the ISO country code [https://www.iso.org/obp/ui/#search], the next two characters represent either
-				a) the first two letters of the location, if the location name is one word, 
-				b) the first letter of the first word followed by the first letter of the second word, if the location name consists of at least two words.
-				Note: for creating new city codes for US and Canada: the two-letter combinations used in postal US states (http://pe.usps.gov/text/pub28/28apb.htm ) and Canadian provinces (http://www.canadapost.ca/tools/pg/manual/PGaddress-e.asp) abbreviations cannot be utilized (e.g. the code for Denver, United States is USDN and not USDE, because of the DE is the abbreviation for Delaware state ).
-			</doc:paragraph>
+            <doc:paragraph>The 4 character codes are based on the business calendar location some of which based on the ISO country code or exchange code, or some other codes.</doc:paragraph>
+            <doc:paragraph>Additional business day calendar location codes could be built according to the following rules: the first two characters represent the ISO 3166 country code [https://www.iso.org/obp/ui/#search], the next two characters represent either a) the first two letters of the location, if the location name is one word, b) the first letter of the first word followed by the first letter of the second word, if the location name consists of at least two words. Note: for creating new city codes for US and Canada: the two-letter combinations used in postal US states (http://pe.usps.gov/text/pub28/28apb.htm ) and Canadian provinces (http://www.canadapost.ca/tools/pg/manual/PGaddress-e.asp) abbreviations cannot be utilized (e.g. the code for Denver, United States is USDN and not USDE, because of the DE is the abbreviation for Delaware state ). </doc:paragraph>
+            <doc:paragraph>Exchange codes could be added based on the ISO 10383 MIC code [https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.xls] according to the following rules: 1. it would be the acronym of the MIC. If acronym is not available, 2. it would be the MIC code. If the MIC code starts with an 'X', 3. the FpML AWG will compose the code.</doc:paragraph>
          </doc:description>
          <doc:publicationDate>2019-12-16</doc:publicationDate>
       </Description>
@@ -116,7 +113,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>Adelaide,  Australia</SimpleValue>
+            <SimpleValue>Adelaide, Australia</SimpleValue>
          </Value>
       </Row>
       <Row>

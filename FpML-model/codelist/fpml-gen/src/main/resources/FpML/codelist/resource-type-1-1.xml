@@ -53,7 +53,7 @@
             <SimpleValue>FpML</SimpleValue>
          </Value>
          <Value>
-            <SimpleValue>Document providing supplemental material economic terms to the FpML data representation.  The initial intended usage is to fulfill the CFTC Part 45 rule requirement to report 'Any other terms(s) of the swap matched or affirmed by the counterparties in verifying the swap' when the reporting is done via the generic FpML representation.</SimpleValue>
+            <SimpleValue>Document providing supplemental material economic terms to the FpML data representation. The initial intended usage is to fulfill the CFTC Part 45 rule requirement to report 'Any other terms(s) of the swap matched or affirmed by the counterparties in verifying the swap' when the reporting is done via the generic FpML representation.</SimpleValue>
          </Value>
       </Row>
       <Row>
