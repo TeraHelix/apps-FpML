@@ -8,7 +8,7 @@ import io.terahelix.common.HelixRuntimeException;
 
 /**
  * A hard coded example package mapper.
- * 
+ *  
  */
 public class ExamplePackageMapper implements PackageMapper
 {
