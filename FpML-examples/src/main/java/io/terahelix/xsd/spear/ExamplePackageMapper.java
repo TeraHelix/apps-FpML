@@ -83,7 +83,7 @@ public class ExamplePackageMapper implements PackageMapper
 		throw new HelixRuntimeException("Could not map the package to a namespace : " + inputPackage);
 	}
 
-	public Path getOutputPath(Class<?> k, String spearSourceCodeDirectory)
+	public Path getOutputPath(Class<?> k )
 	{
 		String pkg = k.getPackageName();
 		final String flName = CodeUtils.getClassOutputFileName(k);
@@ -123,4 +123,6 @@ public class ExamplePackageMapper implements PackageMapper
 		
 		throw new HelixRuntimeException("Could not map the target class to output  : " + k);
 	}
+
+	 
 }
