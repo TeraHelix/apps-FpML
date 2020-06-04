@@ -86,7 +86,12 @@
 					<artifactId>terahelix-spear-xsd-compilers-maven-plugin</artifactId>
 					<version>${terahelix-spear-version}</version>
 				</plugin>
-            
+				
+				<plugin>
+                	<groupId>io.terahelix</groupId>
+                	<artifactId>terahelix-spear-proto-maven-plugin</artifactId>
+                	<version>${terahelix-spear-version}</version>
+				</plugin>
 				
 				<plugin>
 				    <artifactId>maven-dependency-plugin</artifactId>
