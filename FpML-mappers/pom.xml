@@ -9,14 +9,14 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>FpML-examples</artifactId>
+    <artifactId>FpML-mappers</artifactId>
     <packaging>jar</packaging>
-    <name>FpML-examples</name>
+    <name>FpML-mappers</name>
 
     <dependencies>
 		<dependency>
 			<groupId>io.terahelix.apps.FpML</groupId>
-			<artifactId>FpML-mappers</artifactId>
+			<artifactId>FpML-relations-gen</artifactId>
 		</dependency> 
     </dependencies>
 

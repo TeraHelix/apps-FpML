@@ -71,6 +71,7 @@
     	<module>FpML-spear-core-types</module>
     	<module>FpML-examples</module>
     	<module>FpML-relations-gen</module>
+    	<module>FpML-mappers</module>
 
     </modules>
  
@@ -469,6 +470,12 @@
 				<artifactId>FpML-relations-gen</artifactId>
 				<version>${project.version}</version>
 			</dependency>  
+			
+			<dependency>
+				<groupId>io.terahelix.apps.FpML</groupId>
+				<artifactId>FpML-mappers</artifactId>
+				<version>${project.version}</version>
+			</dependency> 
         	
 			
 			<!-- End of internal Components -->

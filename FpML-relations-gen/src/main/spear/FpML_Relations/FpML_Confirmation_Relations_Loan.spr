@@ -1,0 +1,13 @@
+namespace Org.FpML.Confirmation.Relation;
+
+import XSD.FpML.*; 
+import Org.FpML.Confirmation.*; 
+ 
+
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.Loan") 
+@SoftClass
+relation Loan_Relation
+{
+  Org.FpML.Confirmation.Loan
+}
+
