@@ -13,6 +13,19 @@ For more information, please refer to https://www.terahelix.io/blog/Getting-The-
 
 To build and run the TeraHelix FpML Application locally, please refer to our [README-Building.md guide](README-Building.md)  
 
+## Feature Summary
+
+By integrating FpML with Spear, a number of additional capabilities become available. Including
+
+* Support for additional data formats such JSON and YAML.
+
+* Language bindings for Python and improved language bindings for Java.
+
+* Automatic 'flattening' of highly nested data structures to relational / rectangular data shapes appropriate for reporting and SQL queries.
+ 
+## Feature Summary
+
+Any thoughts, queries and comments are, as always, welcome. Feel free to let us know at https://www.terahelix.io/contact/index.html
 
 
     
