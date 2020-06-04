@@ -10,3 +10,12 @@ relation Loan_Relation
   Org.FpML.Confirmation.Loan
 }
 
+@SourceTypeOfRelation(TypeName = "Org.FpML.Confirmation.LoanTrade") 
+relation LoanTrade_Relation
+{
+  Org.FpML.Confirmation.LoanTrade
+}
+
+
+
+
