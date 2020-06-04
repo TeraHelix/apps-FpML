@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+     <parent>
+        <groupId>io.terahelix.apps.FpML</groupId>
+        <artifactId>FpML-model-confirmation</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+ 
+    <artifactId>FpML-model-confirmation-spear-proto-gen</artifactId>
+    <packaging>jar</packaging>
+    <name>FpML-model-confirmation-spear-proto-gen</name>
+
+	<build>
+        <plugins>
+            <plugin>
+                <groupId>io.terahelix</groupId>
+                <artifactId>terahelix-spear-proto-maven-plugin</artifactId>
+                <configuration>
+                	<inputProjectArtifactId>FpML-model-confirmation-spear-gen</inputProjectArtifactId>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+
+		<dependency>
+            <groupId>io.terahelix.apps.FpML</groupId>
+             <artifactId>FpML-model-confirmation-spear-gen</artifactId>
+        </dependency>
+        
+    </dependencies>
+
+</project>

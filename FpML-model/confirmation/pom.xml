@@ -17,6 +17,7 @@
  	<modules>
  		<module>fpml-gen</module>
  		<module>spear-gen</module>
+ 		<module>spear-proto-gen</module>
  	</modules>
 
 </project>
