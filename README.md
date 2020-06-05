@@ -1,9 +1,8 @@
 # TeraHelix FpML Application
 
 ![Apps FpML Build](https://github.com/TeraHelix/apps-FpML/workflows/Apps%20FpML%20Build/badge.svg)
-![Apps FpML Publish Packages 1.0-SNAPSHOT](https://github.com/TeraHelix/apps-FpML/workflows/Apps%20FpML%20Publish%20Packages%201.0-SNAPSHOT/badge.svg)
 
-This project is a Spear integration of standard Financial products Markup Language (https://www.fpml.org/).
+This project is a [Spear](https://www.terahelix.io/products-spear/index.html) integration of standard Financial products Markup Language (https://www.fpml.org/).
 
 [Spear](https://www.terahelix.io/products-spear/index.html) adds a number of features to FpML and broadens its reach into modern frameworks beyond its historical XML/XSD roots. For more information, please refer to the [Getting The Most Out Of FpML](https://www.terahelix.io/blog/Getting-The-Most-Out-Of-FpML-Part-1/index.html) blog series.  
 
