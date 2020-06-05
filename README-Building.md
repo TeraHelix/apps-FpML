@@ -12,17 +12,17 @@ You need to install the following in order to be able to build this project:
 
 ### 'terahelix-licensee' Token
 
-This project makes use of the TeraHelix [Spear](https://www.terahelix.io/products-spear/index.html) and [Platform](https://www.terahelix.io/products-platform/index.html) binaries. 
+This project makes use of the TeraHelix [Spear](https://www.terahelix.io/products-spear/index.html) binaries. 
 
 You need to obtain a 'terahelix-licensee' token (used in the configuration below) in order to get access to these binaries. Please contact [admin@terahelix.io](mailto:admin@terahelix.io) to obtain your token.
 
 ### Configuring your Maven `settings.xml` file 
 
-Once you have installed Apache Maven, you need to configure its `settings.xml` file such that your environment is able to resolve the TeraHelix Spear and Platform binaries that is required for the build.
+Once you have installed Apache Maven, you need to configure its `settings.xml` file such that your environment is able to resolve the TeraHelix Spear binaries that is required for the build.
 
 In particular, you need to update the `repositories`, `pluginRepositories` and `servers` section of the `settings.xml` file.
 
-You can either use this projects version in its entirety - [.github/workflows/settings.xml](.github/workflows/settings.xml) - or simply just this an example of what to update your `settings.xml` file toif you want to preserve other modifications.
+You can either use this projects version in its entirety - [.github/workflows/settings.xml](.github/workflows/settings.xml) - or simply just this an example of what to update your `settings.xml` file to if you want to preserve other modifications.
 
 However, please ensure that you replace these sections: 
 
