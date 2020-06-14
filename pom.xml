@@ -537,12 +537,16 @@
 		
 	</repositories>
 
-		<distributionManagement>
-			<repository>
-				<id>github</id>
-				<name>GitHub TeraHelix Apache Maven Packages</name>
-				<url>https://maven.pkg.github.com/TeraHelix/apps-FpML</url>
-			</repository>
-		</distributionManagement>
+	<distributionManagement>
+        <repository>
+            <id>dist</id>
+            <url>https://terahelix.maven.distrepos.com/terahelix</url>
+        </repository>
+        <snapshotRepository>
+            <id>dist</id>
+            <url>https://terahelix.maven.distrepos.com/terahelix</url>
+        </snapshotRepository>
+    </distributionManagement>
+	
 
 </project>
