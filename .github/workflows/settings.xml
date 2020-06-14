@@ -12,7 +12,7 @@
             <id>default</id>
             <repositories>
                 <repository>
-                    <id>terahelix-repo</id>
+                    <id>dist</id>
                     <name>TeraHelix Repository</name>
                     <url>https://terahelix.maven.distrepos.com/terahelix</url>
                     <snapshots>
@@ -22,7 +22,7 @@
             </repositories>
             <pluginRepositories>
                 <pluginRepository>
-                    <id>terahelix-repo</id>
+                    <id>dist</id>
                     <name>TeraHelix Spear Repository</name>
                     <url>https://terahelix.maven.distrepos.com/terahelix</url>
                     <snapshots>
