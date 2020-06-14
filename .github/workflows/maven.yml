@@ -1,4 +1,4 @@
-name: Java 11 Spear Build on Linux
+name: Apps FpML Build
 
 on: [push]
 

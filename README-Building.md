@@ -24,17 +24,15 @@ In particular, you need to update the `repositories`, `pluginRepositories` and `
 
 You can either use this projects version in its entirety - [.github/workflows/settings.xml](.github/workflows/settings.xml) - or simply just this an example of what to update your `settings.xml` file to if you want to preserve other modifications.
 
-However, please ensure that you replace these sections: 
+However, please ensure that you replace this sections: 
 
 ```
-<username>${env.USERNAME_PACKAGE_READ_WRITE_DELETE}</username>
 <password>${env.TOKEN_PACKAGE_READ_WRITE_DELETE}</password>
 ```
 
 with
 
 ```
-<username>terahelix-licensee</username>
 <password>##YourToken##</password>
 ```
 
