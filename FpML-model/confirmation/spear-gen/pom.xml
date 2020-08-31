@@ -45,9 +45,9 @@
 				</executions>
 				
 				<configuration>
-					<xsdSourcePath>../fpml-gen/src/main/resources</xsdSourcePath>
+					<xsdSourcePath>${basedir}/../fpml-gen/src/main/resources</xsdSourcePath>
 					<sourcePackage>org</sourcePackage>
-					<sourceDirectory>../fpml-gen/src/main/java</sourceDirectory>
+					<sourceDirectory>${basedir}/../fpml-gen/src/main/java</sourceDirectory>
 					<outputDirectory>src/main/spear/FpML</outputDirectory>
 					
 					<defaultNamespaceImport>XSD.FpML</defaultNamespaceImport>
