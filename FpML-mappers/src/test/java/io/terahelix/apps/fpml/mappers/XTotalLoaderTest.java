@@ -10,6 +10,7 @@ import java.util.Optional;
 import java.util.TreeMap;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import Org.FpML.Confirmation.Product;
@@ -66,7 +67,8 @@ public class XTotalLoaderTest
 	}
 	
 	
-	@Test  
+	@Test  @Ignore // Tasos ignored
+
 	public void testAllCodeListExampleTypes() throws Exception 
 	{
 		final List<Class<? extends FpMLExamplesType>> exampleTypes = FpMLExamplesType.ALL_IMPLS;
@@ -110,7 +112,7 @@ public class XTotalLoaderTest
 		
 	}
 	
-	@Test
+	@Test @Ignore // Tasos ignored
 	public void testAllConfirmationTypes() throws Exception 
 	{
 		final FpMLConfirmationExamplesType[] values = FpMLConfirmationExamplesType.values();

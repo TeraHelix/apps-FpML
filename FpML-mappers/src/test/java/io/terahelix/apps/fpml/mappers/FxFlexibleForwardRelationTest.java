@@ -3,6 +3,7 @@ package io.terahelix.apps.fpml.mappers;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
+import io.terahelix.spear.javaRuntime.SpearMerger;
 import org.junit.Ignore;
 import org.junit.Test;
 
@@ -39,7 +40,7 @@ public class FxFlexibleForwardRelationTest
 		byte[] bts= Files.readAllBytes(Path.of("src/test/resources/fpml/test/Sample-FxFlexibleForward.json"));
 		FxFlexibleForward flexForward = SpearHelpers.fromJson(bts);
 		FxFlexibleForward_Relation_Builder flexForwardRelation = FxFlexibleForward_Relation.Create();
-		SpearStructMerger merger = flexForwardRelation.getMerger();
+		SpearMerger merger = flexForwardRelation.getMerger();
 
 		merger.assign( flexForward );
 

@@ -5,6 +5,7 @@ import java.io.File;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -22,7 +23,7 @@ import org.w3c.dom.NodeList;
 public class GenerateBusinessCenterPropstruct
 {
 	 
-	@Test  
+	@Test  @Ignore // Tasos Ignored
 	public void testGeneratePropStructs() throws Exception
 	{
 		StringBuilder genPropStruct = new StringBuilder();
